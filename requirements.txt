@@ -1,0 +1,21 @@
+# Data
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+beautifulsoup4>=4.12
+kaggle>=1.6
+
+# ML
+scikit-learn>=1.4
+catboost>=1.2
+shap>=0.45
+xgboost>=2.0
+
+# API
+fastapi>=0.111
+uvicorn[standard]>=0.29
+pydantic>=2.7
+
+# Dev
+python-dotenv>=1.0
+tqdm>=4.66

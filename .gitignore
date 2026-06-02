@@ -1,0 +1,28 @@
+# Data (raw and processed are large/sensitive)
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# ML artifacts
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.json
+ml/models/*.cbm
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Misc
+.DS_Store
+*.log

@@ -1,0 +1,17 @@
+{
+  "groups": {
+    "A": ["Qatar", "Ecuador", "Senegal", "Netherlands"],
+    "B": ["England", "Iran", "United States", "Wales"],
+    "C": ["Argentina", "Saudi Arabia", "Mexico", "Poland"],
+    "D": ["France", "Australia", "Denmark", "Tunisia"],
+    "E": ["Spain", "Costa Rica", "Germany", "Japan"],
+    "F": ["Belgium", "Canada", "Morocco", "Croatia"],
+    "G": ["Brazil", "Serbia", "Switzerland", "Cameroon"],
+    "H": ["Portugal", "Ghana", "Uruguay", "South Korea"],
+    "I": ["TBD", "TBD", "TBD", "TBD"],
+    "J": ["TBD", "TBD", "TBD", "TBD"],
+    "K": ["TBD", "TBD", "TBD", "TBD"],
+    "L": ["TBD", "TBD", "TBD", "TBD"]
+  },
+  "note": "WC2026 has 12 groups of 4 teams (48 teams total). Update with confirmed draw."
+}
