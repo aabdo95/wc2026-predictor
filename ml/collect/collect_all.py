@@ -8,9 +8,11 @@ log = logging.getLogger(__name__)
 
 COLLECTORS = [
     ("international_results", "ml.collect.international_results", "download"),
-    ("elo_ratings",           "ml.collect.elo_ratings",           "scrape"),
+    ("elo_ratings",           "ml.collect.elo_ratings",           "download"),
+    ("transfermarkt",         "ml.collect.transfermarkt",         "download"),
+    ("betting_odds",          "ml.collect.betting_odds",          "download"),
+    ("squad_quality",         "ml.collect.squad_quality",         "download"),
     ("fifa_rankings",         "ml.collect.fifa_rankings",         "fetch"),
-    ("transfermarkt",         "ml.collect.transfermarkt",         "scrape"),
 ]
 
 
