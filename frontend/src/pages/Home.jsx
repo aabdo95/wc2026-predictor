@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { motion, useReducedMotion } from 'framer-motion'
 import {
   BarChart,
   Bar,
@@ -95,6 +95,17 @@ function WinnerTooltip({ active, payload }) {
 
 export default function Home() {
   const { data, loading, error } = useApi('/api/overview')
+  const reduce = useReducedMotion()
+
+  // Staggered fade-up that collapses to no-op when reduced motion is requested.
+  const reveal = (delay = 0) =>
+    reduce
+      ? {}
+      : {
+          initial: { opacity: 0, y: 16 },
+          animate: { opacity: 1, y: 0 },
+          transition: { duration: 0.5, delay, ease: [0.22, 1, 0.36, 1] },
+        }
 
   if (loading) return <Loading label="Loading tournament overview…" />
   if (error) return <ErrorState error={error} />
@@ -111,12 +122,7 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero */}
-      <motion.section
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center"
-      >
+      <motion.section {...reveal(0)} className="text-center">
         <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs text-text-secondary">
           <Trophy className="h-3.5 w-3.5 text-primary" />
           Powered by 50,000 Monte Carlo simulations
@@ -133,24 +139,14 @@ export default function Home() {
       </motion.section>
 
       {/* Stats row */}
-      <motion.section
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        className="grid grid-cols-2 gap-4 lg:grid-cols-4"
-      >
+      <motion.section {...reveal(0.1)} className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         {stats.map((s) => (
           <StatCard key={s.label} {...s} />
         ))}
       </motion.section>
 
       {/* Winner odds chart */}
-      <motion.section
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        className="card px-4 py-6 sm:px-6"
-      >
+      <motion.section {...reveal(0.2)} className="card px-4 py-6 sm:px-6">
         <div className="mb-1 flex items-center justify-between">
           <h2 className="text-lg font-bold">Championship Odds — Top 10</h2>
           <span className="text-xs text-text-secondary">75% model · 25% market prior</span>
@@ -174,7 +170,7 @@ export default function Home() {
               interval={0}
             />
             <Tooltip cursor={{ fill: 'rgba(255,255,255,0.04)' }} content={<WinnerTooltip />} />
-            <Bar dataKey="prob" radius={[0, 6, 6, 0]} maxBarSize={26}>
+            <Bar dataKey="prob" radius={[0, 6, 6, 0]} maxBarSize={26} isAnimationActive={!reduce}>
               {chartData.map((d, i) => (
                 <Cell key={d.team} fill={i === 0 ? COLORS.primary : '#0e8f6e'} />
               ))}
@@ -193,9 +189,7 @@ export default function Home() {
 
       {/* Navigation cards */}
       <motion.section
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        {...reveal(0.3)}
         className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
       >
         {NAV_CARDS.map(({ to, icon: Icon, title, desc }) => (
