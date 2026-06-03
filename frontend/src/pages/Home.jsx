@@ -120,7 +120,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-8 sm:space-y-12">
       {/* Hero */}
       <motion.section {...reveal(0)} className="text-center">
         <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs text-text-secondary">

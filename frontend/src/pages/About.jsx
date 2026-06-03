@@ -165,14 +165,14 @@ export default function About() {
   ]
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-8">
 
       {/* ── Page header ───────────────────────────────────────────────────── */}
       <header className="border-b border-border pb-5">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
           Model info
         </p>
-        <h1 className="mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">
+        <h1 className="mt-1 text-2xl font-extrabold tracking-tight sm:text-3xl sm:text-4xl">
           How the Predictions Work
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-text-secondary">
@@ -189,7 +189,7 @@ export default function About() {
               {k.value}
             </div>
             <div className="mt-1 text-xs font-semibold text-text-primary">{k.label}</div>
-            <div className="mt-0.5 text-[11px] text-text-secondary">{k.sub}</div>
+            <div className="mt-0.5 text-xs text-text-secondary">{k.sub}</div>
           </motion.div>
         ))}
       </section>

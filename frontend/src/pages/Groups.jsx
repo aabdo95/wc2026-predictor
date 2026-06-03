@@ -30,7 +30,7 @@ export default function Groups() {
   if (error) return <ErrorState error={error} />
 
   return (
-    <div className="space-y-7">
+    <div className="space-y-8">
       <header className="border-b border-border pb-5">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>

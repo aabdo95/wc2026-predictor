@@ -11,7 +11,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-30 border-b border-border bg-bg/80 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-border bg-bg/90 shadow-[0_4px_24px_-6px_rgba(0,0,0,0.55)] backdrop-blur">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-3 sm:px-6 lg:px-8">
         <NavLink to="/" className="flex shrink-0 items-center gap-2 font-bold tracking-tight">
           <Trophy className="h-5 w-5 text-primary" />

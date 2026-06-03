@@ -29,7 +29,7 @@ export default function Bracket() {
       }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Page header */}
       <header className="border-b border-border pb-5">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">

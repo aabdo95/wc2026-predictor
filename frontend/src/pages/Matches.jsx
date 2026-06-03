@@ -42,7 +42,7 @@ export default function Matches() {
   if (error) return <ErrorState error={error} />
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <header className="border-b border-border pb-5">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
           Group stage · 72 matches
@@ -50,7 +50,7 @@ export default function Matches() {
         <h1 className="mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">
           Match Predictions
         </h1>
-        <p className="mt-2 text-sm text-text-secondary">
+        <p className="mt-2 max-w-2xl text-sm text-text-secondary">
           Outcome probabilities per match — <span className="text-primary">home win</span> /{' '}
           <span className="text-secondary">draw</span> / <span className="text-danger">away win</span>.
           Click any match for its expected goals and the factors behind the call.
