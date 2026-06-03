@@ -38,7 +38,9 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 from itertools import combinations
 from pathlib import Path
@@ -47,6 +49,16 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import combined_model as cm  # noqa: E402
+
+
+def slugify(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def match_id(group: str, home: str, away: str) -> str:
+    """Stable id shared by match_predictions.json and match_explanations.json."""
+    return f"{group}-{slugify(home)}-vs-{slugify(away)}"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -418,6 +430,7 @@ def write_outputs(groups, gm, letters, P, GF, GA, GD, acc, n):
             home, away = groups[g][m.a], groups[g][m.b]
             res = cm.predict_match(home, away, neutral=True)
             preds.append({
+                "match_id": match_id(g, home, away),
                 "group": g, "home": home, "away": away,
                 "p_home_win": r(ph), "p_draw": r(pd_), "p_away_win": r(pa),
                 "most_likely_result": LABELS[int(np.argmax(m.probs))],
