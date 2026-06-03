@@ -385,7 +385,7 @@ export default function About() {
                   const label = humanize(f)
                   return label.length > 22 ? label.slice(0, 21) + '…' : label
                 }}
-                tick={{ fontSize: 11, fill: 'var(--color-text-secondary)' }}
+                tick={{ fontSize: 12, fill: '#f1f5f9' }}
                 axisLine={false}
                 tickLine={false}
               />
