@@ -27,8 +27,8 @@ import { Loading, ErrorState } from '../components/States.jsx'
 
 // ── Feature label humanizer ──────────────────────────────────────────────────
 const FEAT_LABELS = {
-  elo_expected_home:    'ELO Expected Home Win',
-  elo_diff_adj:         'ELO Difference (adj.)',
+  elo_expected_home:    'ELO Exp. Home Win',
+  elo_diff_adj:         'ELO Diff. (adj.)',
   elo_diff:             'ELO Difference',
   h2h_gd_avg:           'H2H Goal Diff Avg',
   h2h_count:            'H2H Meetings Count',
@@ -38,7 +38,7 @@ const FEAT_LABELS = {
   away_comp_ga_last10:  'Away Comp. GA (L10)',
   home_comp_ga_last10:  'Home Comp. GA (L10)',
   h2h_home_win_rate:    'H2H Home Win Rate',
-  home_ga_last10:       'Home Goals Against (L10)',
+  home_ga_last10:       'Home GA Last 10',
   squad_value_ratio:    'Squad Value Ratio',
   elo_home_adj:         'Home ELO (adj.)',
   tournament_tier:      'Tournament Tier',
@@ -368,7 +368,7 @@ export default function About() {
             <BarChart
               data={chartData}
               layout="vertical"
-              margin={{ top: 4, right: 64, bottom: 4, left: 0 }}
+              margin={{ top: 4, right: 64, bottom: 4, left: 180 }}
             >
               <XAxis
                 type="number"
@@ -380,9 +380,12 @@ export default function About() {
               <YAxis
                 type="category"
                 dataKey="feature"
-                width={172}
-                tickFormatter={humanize}
-                tick={{ fontSize: 10, fill: 'var(--color-text-secondary)' }}
+                width={180}
+                tickFormatter={(f) => {
+                  const label = humanize(f)
+                  return label.length > 22 ? label.slice(0, 21) + '…' : label
+                }}
+                tick={{ fontSize: 11, fill: 'var(--color-text-secondary)' }}
                 axisLine={false}
                 tickLine={false}
               />
@@ -456,7 +459,7 @@ export default function About() {
           </p>
         </div>
         <a
-          href="https://github.com/abdelrahmanahmed/wc2026-predictor"
+          href="https://github.com/aabdo95/wc2026-predictor"
           target="_blank"
           rel="noopener noreferrer"
           className="flex shrink-0 items-center gap-2 rounded-lg border border-primary/40 bg-primary/10 px-4 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-primary/20 focus-visible:outline-2 focus-visible:outline-primary"
