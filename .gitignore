@@ -1,10 +1,21 @@
-# Data (raw and processed are large/sensitive)
+# ── Data ──────────────────────────────────────────────────────────────────────
 data/raw/
 data/processed/
+# data/fixtures/ is intentionally committed (groups.json, schedule.json, wc2026_winner_odds.json)
 
-# Python
+# ── ML artefacts ──────────────────────────────────────────────────────────────
+ml/models/*.joblib
+ml/models/*.cbm
+ml/models/dixon_coles_params.json
+ml/models/combined_weights.json
+ml/models/*.pkl
+ml/models/*.png
+catboost_info/
+
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
+*.pkl
 *.egg-info/
 dist/
 build/
@@ -12,22 +23,15 @@ build/
 venv/
 .env
 
-# ML artifacts
-ml/models/*.pkl
-ml/models/*.joblib
-ml/models/*.json
-ml/models/*.cbm
-ml/models/*.png
-catboost_info/
-
-# Node / frontend
+# ── Node / frontend ───────────────────────────────────────────────────────────
 node_modules/
 frontend/dist/
 frontend/.env
 
-# Misc
+# ── Misc ──────────────────────────────────────────────────────────────────────
 .DS_Store
 *.log
+1280
 
-# Local instructions (not tracked)
+# ── Local instructions (not tracked) ─────────────────────────────────────────
 CLAUDE.md
