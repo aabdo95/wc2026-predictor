@@ -33,11 +33,34 @@ function TeamRow({ team, idx }) {
         />
 
         <div className="relative flex items-center gap-2.5 px-3 py-2">
-          <span className="stat-num w-3 text-center text-[11px] text-text-secondary">
-            {idx + 1}
-          </span>
-          <span className="text-lg leading-none">{flag(team.team)}</span>
-          <span className="min-w-0 flex-1 truncate text-sm font-medium">{team.team}</span>
+          {/* Left region (rank · flag · name). On hover the name fades out and
+              the advance / win-group stats crossfade in over the SAME space,
+              backed opaque so nothing shows through. xPts/xGD are siblings
+              outside this box, so they stay put and visible. */}
+          <div className="relative flex min-w-0 flex-1 items-center gap-2.5 overflow-hidden">
+            <span className="stat-num w-3 shrink-0 text-center text-[11px] text-text-secondary">
+              {idx + 1}
+            </span>
+            <span className="shrink-0 text-lg leading-none">{flag(team.team)}</span>
+            <span className="min-w-0 flex-1 truncate text-sm font-medium transition-opacity duration-150 group-hover/row:opacity-0">
+              {team.team}
+            </span>
+
+            <div className="pointer-events-none absolute inset-0 flex items-center gap-2 bg-surface-elevated pl-1 pr-2 opacity-0 transition-opacity duration-150 group-hover/row:opacity-100">
+              <TrendingUp className="h-3.5 w-3.5 shrink-0 text-primary" />
+              <span className="whitespace-nowrap text-[11px]">
+                <span className="text-text-secondary">Adv </span>
+                <span className="stat-num font-semibold text-primary">{pct(team.advance_prob)}</span>
+              </span>
+              <span className="whitespace-nowrap text-[11px]">
+                <span className="text-text-secondary">Win </span>
+                <span className="stat-num font-semibold text-text-primary">
+                  {pct(team.win_group_prob)}
+                </span>
+              </span>
+            </div>
+          </div>
+
           <span className="stat-num w-11 text-right text-sm font-semibold tracking-tight">
             {team.expected_points.toFixed(2)}
           </span>
@@ -51,22 +74,6 @@ function TeamRow({ team, idx }) {
             }`}
           >
             {gd(team.expected_gd)}
-          </span>
-        </div>
-
-        {/* Hover reveal: advance / win-group odds slide in over the right edge.
-            Kept inside the row band so it is never clipped by overflow-hidden. */}
-        <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center gap-2 bg-gradient-to-l from-surface-elevated via-surface-elevated to-transparent pl-10 pr-3 text-xs opacity-0 transition-opacity duration-150 group-hover/row:opacity-100">
-          <TrendingUp className="h-3.5 w-3.5 text-primary" />
-          <span className="whitespace-nowrap">
-            <span className="text-text-secondary">Advance </span>
-            <span className="stat-num font-semibold text-primary">{pct(team.advance_prob)}</span>
-          </span>
-          <span className="whitespace-nowrap">
-            <span className="text-text-secondary">Win grp </span>
-            <span className="stat-num font-semibold text-text-primary">
-              {pct(team.win_group_prob)}
-            </span>
           </span>
         </div>
       </div>
