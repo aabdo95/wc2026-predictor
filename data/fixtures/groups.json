@@ -1,17 +1,17 @@
 {
   "groups": {
-    "A": ["Qatar", "Ecuador", "Senegal", "Netherlands"],
-    "B": ["England", "Iran", "United States", "Wales"],
-    "C": ["Argentina", "Saudi Arabia", "Mexico", "Poland"],
-    "D": ["France", "Australia", "Denmark", "Tunisia"],
-    "E": ["Spain", "Costa Rica", "Germany", "Japan"],
-    "F": ["Belgium", "Canada", "Morocco", "Croatia"],
-    "G": ["Brazil", "Serbia", "Switzerland", "Cameroon"],
-    "H": ["Portugal", "Ghana", "Uruguay", "South Korea"],
-    "I": ["TBD", "TBD", "TBD", "TBD"],
-    "J": ["TBD", "TBD", "TBD", "TBD"],
-    "K": ["TBD", "TBD", "TBD", "TBD"],
-    "L": ["TBD", "TBD", "TBD", "TBD"]
+    "A": ["Mexico", "South Africa", "South Korea", "Czech Republic"],
+    "B": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["United States", "Paraguay", "Australia", "Turkey"],
+    "E": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Iraq", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
   },
-  "note": "WC2026 has 12 groups of 4 teams (48 teams total). Update with confirmed draw."
+  "note": "WC2026 confirmed draw — 12 groups of 4 (48 teams). Team names normalised to exactly match the Dixon-Coles model and match_features.csv: Czechia->Czech Republic, Bosnia-Herzegovina->Bosnia and Herzegovina, USA->United States, Curacao->Curaçao, Congo DR->DR Congo."
 }

@@ -1,0 +1,134 @@
+{
+  "source": "FanDuel Sportsbook (via Sports Illustrated)",
+  "source_url": "https://www.si.com/betting/every-teams-championship-group-odds-for-the-2026-world-cup-spain-and-france-top-odds-list-01kt4yygesqb",
+  "collected_date": "2026-06-03",
+  "market": "Outright winner (top 20 teams)",
+  "name_normalisation": {
+    "USA": "United States",
+    "Turkiye": "Turkey"
+  },
+  "overround": 1.1547,
+  "note": "American odds converted to implied probability, then normalised to sum to 1.0 across the listed teams. Teams outside this list have market_prob 0.",
+  "odds": [
+    {
+      "team": "Spain",
+      "american_odds": 420,
+      "implied_prob": 0.19231,
+      "market_prob": 0.16654
+    },
+    {
+      "team": "France",
+      "american_odds": 460,
+      "implied_prob": 0.17857,
+      "market_prob": 0.15464
+    },
+    {
+      "team": "England",
+      "american_odds": 650,
+      "implied_prob": 0.13333,
+      "market_prob": 0.11547
+    },
+    {
+      "team": "Brazil",
+      "american_odds": 850,
+      "implied_prob": 0.10526,
+      "market_prob": 0.09116
+    },
+    {
+      "team": "Portugal",
+      "american_odds": 1000,
+      "implied_prob": 0.09091,
+      "market_prob": 0.07873
+    },
+    {
+      "team": "Argentina",
+      "american_odds": 1000,
+      "implied_prob": 0.09091,
+      "market_prob": 0.07873
+    },
+    {
+      "team": "Germany",
+      "american_odds": 1300,
+      "implied_prob": 0.07143,
+      "market_prob": 0.06186
+    },
+    {
+      "team": "Netherlands",
+      "american_odds": 1600,
+      "implied_prob": 0.05882,
+      "market_prob": 0.05094
+    },
+    {
+      "team": "Belgium",
+      "american_odds": 2200,
+      "implied_prob": 0.04348,
+      "market_prob": 0.03765
+    },
+    {
+      "team": "Norway",
+      "american_odds": 3500,
+      "implied_prob": 0.02778,
+      "market_prob": 0.02406
+    },
+    {
+      "team": "Colombia",
+      "american_odds": 4000,
+      "implied_prob": 0.02439,
+      "market_prob": 0.02112
+    },
+    {
+      "team": "Japan",
+      "american_odds": 4500,
+      "implied_prob": 0.02174,
+      "market_prob": 0.01883
+    },
+    {
+      "team": "Morocco",
+      "american_odds": 6000,
+      "implied_prob": 0.01639,
+      "market_prob": 0.0142
+    },
+    {
+      "team": "United States",
+      "american_odds": 6000,
+      "implied_prob": 0.01639,
+      "market_prob": 0.0142
+    },
+    {
+      "team": "Uruguay",
+      "american_odds": 6000,
+      "implied_prob": 0.01639,
+      "market_prob": 0.0142
+    },
+    {
+      "team": "Mexico",
+      "american_odds": 6500,
+      "implied_prob": 0.01515,
+      "market_prob": 0.01312
+    },
+    {
+      "team": "Switzerland",
+      "american_odds": 6500,
+      "implied_prob": 0.01515,
+      "market_prob": 0.01312
+    },
+    {
+      "team": "Croatia",
+      "american_odds": 7000,
+      "implied_prob": 0.01408,
+      "market_prob": 0.0122
+    },
+    {
+      "team": "Turkey",
+      "american_odds": 8000,
+      "implied_prob": 0.01235,
+      "market_prob": 0.01069
+    },
+    {
+      "team": "Ecuador",
+      "american_odds": 10000,
+      "implied_prob": 0.0099,
+      "market_prob": 0.00857
+    }
+  ]
+}

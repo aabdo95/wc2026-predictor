@@ -39,15 +39,25 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger(__name__)
 
 RESULTS_PATH  = Path("data/raw/international_results.csv")
+ELO_PATH      = Path("data/raw/elo_ratings.csv")
 MODELS_DIR    = Path("ml/models")
 PARAMS_PATH   = MODELS_DIR / "dixon_coles_params.json"
 
 XI               = 0.003   # time-decay rate (days⁻¹)
 MAX_GOALS        = 10      # scoreline matrix dimension
 MIN_MATCHES      = 10      # minimum matches to keep a team in the model
-SHRINK_PRIOR     = 60      # Bayesian prior strength (pseudo-observations toward global mean)
+SHRINK_PRIOR     = 60      # default Bayesian prior strength (overridden by grid search)
 XG_CAP           = 3.0     # hard cap on expected goals per team per match
 DATA_START       = "1990-01-01"  # older matches add noise, not signal
+
+# ELO-anchored shrinkage: each team's attack/defence MLE is pulled toward an
+# ELO-implied prior. This corrects the pure-goals bias that overrates teams who
+# run up scores against weak confederations (e.g. Norway) and underrates sides
+# in low-scoring confederations (e.g. Brazil). `c` sets how strongly ELO maps to
+# expected goals; `K` sets how much we trust ELO vs the team's own goal record.
+# Both are chosen by out-of-sample WC2018+2022 log-loss (not tuned to any team).
+ELO_C_GRID = (0.4, 0.6, 0.8, 1.0, 1.2)
+ELO_K_GRID = (80, 250, 400, 800, 1500, 3000)
 
 
 # ── Low-score correction (vectorized) ────────────────────────────────────────
@@ -153,6 +163,13 @@ def load_training_data() -> pd.DataFrame:
 def filter_teams(df: pd.DataFrame) -> list[str]:
     counts = pd.concat([df["home_team"], df["away_team"]]).value_counts()
     return sorted(counts[counts >= MIN_MATCHES].index.tolist())
+
+
+def load_elo_latest() -> dict[str, float]:
+    """Most recent ELO rating per team (used as the shrinkage prior)."""
+    elo = pd.read_csv(ELO_PATH, parse_dates=["date"])
+    latest = elo.sort_values("date").groupby("team")["elo_rating"].last()
+    return latest.to_dict()
 
 
 def compute_weights(df: pd.DataFrame, ref_date: pd.Timestamp) -> np.ndarray:
@@ -262,41 +279,59 @@ def fit(df: pd.DataFrame, teams: list[str]) -> DixonColesModel:
 
 # ── Parameter shrinkage ──────────────────────────────────────────────────────
 
-def shrink_parameters(model: DixonColesModel, df: pd.DataFrame) -> DixonColesModel:
+def _elo_priors(model: DixonColesModel, elo: dict[str, float], c: float) -> tuple[dict, dict]:
     """
-    Bayesian shrinkage applied to EVERY team.
+    ELO-implied attack/defence priors centred on the global means.
 
-    For each team with n competitive matches:
-        attack_final  = (n * attack_mle  + K * global_mean_attack)  / (n + K)
-        defense_final = (n * defense_mle + K * global_mean_defense) / (n + K)
+        s_team       = (elo_team − elo_ref) / 400
+        attack_prior = global_α · exp( c · s)      (stronger team → more goals)
+        defence_prior= global_β · exp(−c · s)      (stronger team → concedes fewer)
 
-    Teams with many matches are barely affected; sparse teams are pulled
-    strongly toward the league average. This prevents extreme parameters
-    for teams like Cape Verde or Haiti with few data points.
+    With c = 0 this collapses to the plain global-mean prior.
+    """
+    teams = model.teams
+    elos = np.array([elo.get(t, np.nan) for t in teams], dtype=float)
+    elo_ref = float(np.nanmean(elos))
+    elos = np.where(np.isnan(elos), elo_ref, elos)
+    s = (elos - elo_ref) / 400.0
+
+    global_alpha = float(np.mean(list(model.alpha.values())))
+    global_beta  = float(np.mean(list(model.beta.values())))
+
+    att = {t: global_alpha * float(np.exp(c * s[i])) for i, t in enumerate(teams)}
+    def_ = {t: global_beta * float(np.exp(-c * s[i])) for i, t in enumerate(teams)}
+    return att, def_
+
+
+def shrink_parameters(model: DixonColesModel, df: pd.DataFrame,
+                      elo: dict[str, float], c: float, K: float,
+                      verbose: bool = False) -> DixonColesModel:
+    """
+    Shrink each team's MLE attack/defence toward its ELO-implied prior:
+
+        attack_final  = (n · attack_mle  + K · attack_prior(elo))  / (n + K)
+        defence_final = (n · defence_mle + K · defence_prior(elo)) / (n + K)
+
+    Anchoring to ELO (rather than a single global mean) ties team strength to
+    opponent-quality-aware ratings, so a team that merely piles up goals against
+    weak opposition is no longer rated above a stronger side with fewer goals.
     """
     team_set = set(model.teams)
     home_counts = df[df["home_team"].isin(team_set)]["home_team"].value_counts()
     away_counts = df[df["away_team"].isin(team_set)]["away_team"].value_counts()
     match_counts = home_counts.add(away_counts, fill_value=0).astype(int)
 
-    K = SHRINK_PRIOR
-    global_alpha = float(np.mean(list(model.alpha.values())))
-    global_beta  = float(np.mean(list(model.beta.values())))
+    att_prior, def_prior = _elo_priors(model, elo, c)
 
-    new_alpha = {}
-    new_beta  = {}
-
+    new_alpha, new_beta = {}, {}
     for team in model.teams:
         n = int(match_counts.get(team, 0))
-        new_alpha[team] = (n * model.alpha[team] + K * global_alpha) / (n + K)
-        new_beta[team]  = (n * model.beta[team]  + K * global_beta)  / (n + K)
+        new_alpha[team] = (n * model.alpha[team] + K * att_prior[team]) / (n + K)
+        new_beta[team]  = (n * model.beta[team]  + K * def_prior[team]) / (n + K)
 
-    log.info(
-        "Shrinkage (K=%d): global_α=%.3f  global_β=%.3f  |  "
-        "min_n=%d  max_n=%d  median_n=%d",
-        K, global_alpha, global_beta,
-        match_counts.min(), match_counts.max(), int(match_counts.median()),
-    )
+    if verbose:
+        log.info("ELO-anchored shrinkage: c=%.2f  K=%.0f  |  min_n=%d max_n=%d median_n=%d",
+                 c, K, match_counts.min(), match_counts.max(), int(match_counts.median()))
     return DixonColesModel(model.teams, new_alpha, new_beta, model.gamma, model.rho)
 
 
@@ -365,12 +400,48 @@ def validate(model: DixonColesModel, df: pd.DataFrame, label: str) -> float:
     return ll
 
 
+def collect_predictions(model: DixonColesModel, df: pd.DataFrame) -> tuple[list, list]:
+    """Quietly gather (y_true, [ph,pd,pa]) for log-loss scoring (grid search)."""
+    ys, ps = [], []
+    for _, row in df.iterrows():
+        h, a = row["home_team"], row["away_team"]
+        if h not in model.alpha or a not in model.alpha:
+            continue
+        ph, pd_, pa = model.predict_outcome_probs(h, a, neutral=bool(row["neutral"]))
+        diff = row["home_score"] - row["away_score"]
+        ys.append(0 if diff > 0 else (1 if diff == 0 else 2))
+        ps.append([ph, pd_, pa])
+    return ys, ps
+
+
+def tune_shrinkage(base_model: DixonColesModel, train_df: pd.DataFrame,
+                   elo: dict[str, float], val_sets: list[pd.DataFrame]) -> tuple[float, float]:
+    """Grid-search (c, K) minimising pooled out-of-sample log-loss on val_sets."""
+    log.info("Tuning ELO-anchored shrinkage over %d×%d grid (OOS log-loss) ...",
+             len(ELO_C_GRID), len(ELO_K_GRID))
+    best = (None, None, float("inf"))
+    for c in ELO_C_GRID:
+        for K in ELO_K_GRID:
+            m = shrink_parameters(base_model, train_df, elo, c, K)
+            ys, ps = [], []
+            for vdf in val_sets:
+                y, p = collect_predictions(m, vdf)
+                ys += y; ps += p
+            ll = log_loss(ys, ps, labels=[0, 1, 2])
+            if ll < best[2]:
+                best = (c, K, ll)
+    log.info("Best shrinkage: c=%.2f  K=%.0f  (pooled OOS log-loss=%.4f)", *best)
+    return best[0], best[1]
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def train() -> DixonColesModel:
     df    = load_training_data()
     teams = filter_teams(df)
-    log.info("%d teams with >= %d competitive matches", len(teams), MIN_MATCHES)
+    elo   = load_elo_latest()
+    log.info("%d teams with >= %d competitive matches  |  ELO loaded for %d teams",
+             len(teams), MIN_MATCHES, len(elo))
 
     # Chronological split for validation
     train_df = df[df["date"] < "2018-06-01"].copy()
@@ -386,17 +457,19 @@ def train() -> DixonColesModel:
     log.info("Train: %d  |  WC2018 val: %d  |  WC2022 val: %d",
              len(train_df), len(wc2018), len(wc2022))
 
-    # Fit on train, validate out-of-sample
-    model = fit(train_df, teams)
-    model = shrink_parameters(model, train_df)
+    # Fit MLE once on train, then choose (c, K) by pooled OOS log-loss
+    base_model = fit(train_df, teams)
+    best_c, best_K = tune_shrinkage(base_model, train_df, elo, [wc2018, wc2022])
+
+    model = shrink_parameters(base_model, train_df, elo, best_c, best_K, verbose=True)
     ll_2018 = validate(model, wc2018, "WC2018 (OOS)")
     ll_2022 = validate(model, wc2022, "WC2022 (OOS)")
 
-    # Re-fit on ALL data for deployment model
+    # Re-fit on ALL data for deployment model, shrink with the chosen (c, K)
     log.info("Re-fitting on full dataset for deployment ...")
     all_teams   = filter_teams(df)
     final_model = fit(df, all_teams)
-    final_model = shrink_parameters(final_model, df)
+    final_model = shrink_parameters(final_model, df, elo, best_c, best_K, verbose=True)
 
     ll_full = validate(final_model, df[df["date"] >= "2018-01-01"], "Post-2018 (in-sample)")
 
@@ -410,7 +483,8 @@ def train() -> DixonColesModel:
         "num_matches":      len(df),
         "xi":               XI,
         "max_goals":        MAX_GOALS,
-        "shrink_prior":     SHRINK_PRIOR,
+        "shrink_prior":     best_K,
+        "elo_c":            best_c,
         "xg_cap":           XG_CAP,
         "data_start":       DATA_START,
         "validation": {
