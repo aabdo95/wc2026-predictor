@@ -17,6 +17,8 @@ ml/models/*.pkl
 ml/models/*.joblib
 ml/models/*.json
 ml/models/*.cbm
+ml/models/*.png
+catboost_info/
 
 # Node / frontend
 node_modules/
@@ -26,3 +28,6 @@ frontend/.env
 # Misc
 .DS_Store
 *.log
+
+# Local instructions (not tracked)
+CLAUDE.md
