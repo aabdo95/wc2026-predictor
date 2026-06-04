@@ -35,3 +35,4 @@ frontend/.env
 
 # ── Local instructions (not tracked) ─────────────────────────────────────────
 CLAUDE.md
+.vercel
