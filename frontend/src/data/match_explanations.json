@@ -1,0 +1,2954 @@
+{
+  "A-mexico-vs-south-africa": {
+    "match_id": "A-mexico-vs-south-africa",
+    "group": "A",
+    "home": "Mexico",
+    "away": "South Africa",
+    "predicted": "home_win",
+    "confidence": 0.6694,
+    "explanation": "Mexico are predicted to beat South Africa (67% confidence) primarily because of Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2715,
+        "value": 215.13,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.101,
+        "value": 0.7753,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0765,
+        "value": 215.13,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215)"
+      },
+      {
+        "feature": "elo_home",
+        "shap_value": -0.0298,
+        "value": 1827.59,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215)"
+      },
+      {
+        "feature": "elo_away",
+        "shap_value": -0.0274,
+        "value": 1612.46,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Africa 1612, +215)"
+      }
+    ]
+  },
+  "A-mexico-vs-south-korea": {
+    "match_id": "A-mexico-vs-south-korea",
+    "group": "A",
+    "home": "Mexico",
+    "away": "South Korea",
+    "predicted": "home_win",
+    "confidence": 0.41,
+    "explanation": "Mexico are predicted to beat South Korea (41% confidence) primarily because of Mexico's higher ELO rating (Mexico 1828 vs South Korea 1767, +60), and their head-to-head history (7 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1002,
+        "value": 60.32,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Korea 1767, +60)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0501,
+        "value": 0.5859,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Korea 1767, +60)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0348,
+        "value": 60.32,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Korea 1767, +60)"
+      },
+      {
+        "feature": "elo_home",
+        "shap_value": -0.0264,
+        "value": 1827.59,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs South Korea 1767, +60)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": 0.0261,
+        "value": 0.5714,
+        "description": "their head-to-head history (7 prior meetings)"
+      }
+    ]
+  },
+  "A-mexico-vs-czech-republic": {
+    "match_id": "A-mexico-vs-czech-republic",
+    "group": "A",
+    "home": "Mexico",
+    "away": "Czech Republic",
+    "predicted": "home_win",
+    "confidence": 0.5605,
+    "explanation": "Mexico are predicted to beat Czech Republic (56% confidence) primarily because of Mexico's higher ELO rating (Mexico 1828 vs Czech Republic 1671, +156), squad market value (Mexico €1.3B vs Czech Republic €946M), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1839,
+        "value": 156.27,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs Czech Republic 1671, +156)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1117,
+        "value": 945955000.0,
+        "description": "squad market value (Mexico €1.3B vs Czech Republic €946M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0886,
+        "value": 156.27,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs Czech Republic 1671, +156)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0841,
+        "value": 0.7109,
+        "description": "Mexico's higher ELO rating (Mexico 1828 vs Czech Republic 1671, +156)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.051,
+        "value": -1.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      }
+    ]
+  },
+  "A-south-africa-vs-south-korea": {
+    "match_id": "A-south-africa-vs-south-korea",
+    "group": "A",
+    "home": "South Africa",
+    "away": "South Korea",
+    "predicted": "away_win",
+    "confidence": 0.6568,
+    "explanation": "South Korea are predicted to beat South Africa (66% confidence) primarily because of South Korea's higher ELO rating (South Korea 1767 vs South Africa 1612, +155), and squad market value (South Africa €48M vs South Korea n/a).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4566,
+        "value": -154.81,
+        "description": "South Korea's higher ELO rating (South Korea 1767 vs South Africa 1612, +155)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1852,
+        "value": 0.2909,
+        "description": "South Korea's higher ELO rating (South Korea 1767 vs South Africa 1612, +155)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0492,
+        "value": -154.81,
+        "description": "South Korea's higher ELO rating (South Korea 1767 vs South Africa 1612, +155)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.044,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0425,
+        "value": 47825000.0,
+        "description": "squad market value (South Africa €48M vs South Korea n/a)"
+      }
+    ]
+  },
+  "A-south-africa-vs-czech-republic": {
+    "match_id": "A-south-africa-vs-czech-republic",
+    "group": "A",
+    "home": "South Africa",
+    "away": "Czech Republic",
+    "predicted": "away_win",
+    "confidence": 0.515,
+    "explanation": "Czech Republic are predicted to beat South Africa (52% confidence) primarily because of Czech Republic's higher ELO rating (Czech Republic 1671 vs South Africa 1612, +59), and squad market value (South Africa €48M vs Czech Republic €946M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2602,
+        "value": -58.86,
+        "description": "Czech Republic's higher ELO rating (Czech Republic 1671 vs South Africa 1612, +59)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.2364,
+        "value": 945955000.0,
+        "description": "squad market value (South Africa €48M vs Czech Republic €946M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1031,
+        "value": 0.4161,
+        "description": "Czech Republic's higher ELO rating (Czech Republic 1671 vs South Africa 1612, +59)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0434,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0412,
+        "value": 47825000.0,
+        "description": "squad market value (South Africa €48M vs Czech Republic €946M)"
+      }
+    ]
+  },
+  "A-south-korea-vs-czech-republic": {
+    "match_id": "A-south-korea-vs-czech-republic",
+    "group": "A",
+    "home": "South Korea",
+    "away": "Czech Republic",
+    "predicted": "home_win",
+    "confidence": 0.5432,
+    "explanation": "South Korea are predicted to beat Czech Republic (54% confidence) primarily because of squad market value (South Korea n/a vs Czech Republic €946M), South Korea's higher ELO rating (South Korea 1767 vs Czech Republic 1671, +96), and their head-to-head history (2 prior meetings).",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1209,
+        "value": 945955000.0,
+        "description": "squad market value (South Korea n/a vs Czech Republic €946M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0551,
+        "value": 95.95,
+        "description": "South Korea's higher ELO rating (South Korea 1767 vs Czech Republic 1671, +96)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.0508,
+        "value": -2.0,
+        "description": "their head-to-head history (2 prior meetings)"
+      },
+      {
+        "feature": "elo_away",
+        "shap_value": -0.03,
+        "value": 1671.32,
+        "description": "South Korea's higher ELO rating (South Korea 1767 vs Czech Republic 1671, +96)"
+      },
+      {
+        "feature": "away_gd_last5",
+        "shap_value": -0.0273,
+        "value": 1.2,
+        "description": "Czech Republic's attacking output"
+      }
+    ]
+  },
+  "B-canada-vs-bosnia-and-herzegovina": {
+    "match_id": "B-canada-vs-bosnia-and-herzegovina",
+    "group": "B",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "predicted": "home_win",
+    "confidence": 0.5868,
+    "explanation": "Canada are predicted to beat Bosnia and Herzegovina (59% confidence) primarily because of Canada's higher ELO rating (Canada 1739 vs Bosnia and Herzegovina 1580, +160), squad market value (Canada €515M vs Bosnia and Herzegovina n/a), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1688,
+        "value": 159.6,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Bosnia and Herzegovina 1580, +160)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1534,
+        "value": 3176389.0,
+        "description": "squad market value (Canada €515M vs Bosnia and Herzegovina n/a)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0814,
+        "value": 159.6,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Bosnia and Herzegovina 1580, +160)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0795,
+        "value": 0.7148,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Bosnia and Herzegovina 1580, +160)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0372,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      }
+    ]
+  },
+  "B-canada-vs-qatar": {
+    "match_id": "B-canada-vs-qatar",
+    "group": "B",
+    "home": "Canada",
+    "away": "Qatar",
+    "predicted": "home_win",
+    "confidence": 0.6272,
+    "explanation": "Canada are predicted to beat Qatar (63% confidence) primarily because of Canada's higher ELO rating (Canada 1739 vs Qatar 1585, +154), squad market value (Canada €515M vs Qatar €45M), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1862,
+        "value": 154.08,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Qatar 1585, +154)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1414,
+        "value": 3176389.0,
+        "description": "squad market value (Canada €515M vs Qatar €45M)"
+      },
+      {
+        "feature": "h2h_avg_goals_away",
+        "shap_value": 0.1078,
+        "value": 0.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0937,
+        "value": 0.7083,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Qatar 1585, +154)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0827,
+        "value": 154.08,
+        "description": "Canada's higher ELO rating (Canada 1739 vs Qatar 1585, +154)"
+      }
+    ]
+  },
+  "B-canada-vs-switzerland": {
+    "match_id": "B-canada-vs-switzerland",
+    "group": "B",
+    "home": "Canada",
+    "away": "Switzerland",
+    "predicted": "away_win",
+    "confidence": 0.5864,
+    "explanation": "Switzerland are predicted to beat Canada (59% confidence) primarily because of squad market value (Canada €515M vs Switzerland €2.0B), Switzerland's higher ELO rating (Switzerland 1786 vs Canada 1739, +46), and Canada's defensive record.",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.3614,
+        "value": 2027975000.0,
+        "description": "squad market value (Canada €515M vs Switzerland €2.0B)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2197,
+        "value": -46.09,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Canada 1739, +46)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": -0.1066,
+        "value": 3176389.0,
+        "description": "squad market value (Canada €515M vs Switzerland €2.0B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1,
+        "value": 0.4341,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Canada 1739, +46)"
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0462,
+        "value": 0.4,
+        "description": "Canada's defensive record"
+      }
+    ]
+  },
+  "B-bosnia-and-herzegovina-vs-qatar": {
+    "match_id": "B-bosnia-and-herzegovina-vs-qatar",
+    "group": "B",
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "predicted": "home_win",
+    "confidence": 0.4338,
+    "explanation": "Bosnia and Herzegovina are predicted to beat Qatar (43% confidence) primarily because of Qatar's higher ELO rating (Qatar 1585 vs Bosnia and Herzegovina 1580, +6), and their head-to-head history (2 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1955,
+        "value": -5.52,
+        "description": "Qatar's higher ELO rating (Qatar 1585 vs Bosnia and Herzegovina 1580, +6)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0763,
+        "value": 0.4921,
+        "description": "Qatar's higher ELO rating (Qatar 1585 vs Bosnia and Herzegovina 1580, +6)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.0511,
+        "value": -1.0,
+        "description": "their head-to-head history (2 prior meetings)"
+      },
+      {
+        "feature": "h2h_avg_goals_home",
+        "shap_value": -0.0291,
+        "value": 0.5,
+        "description": "their head-to-head history (2 prior meetings)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": -0.0257,
+        "value": -5.52,
+        "description": "Qatar's higher ELO rating (Qatar 1585 vs Bosnia and Herzegovina 1580, +6)"
+      }
+    ]
+  },
+  "B-bosnia-and-herzegovina-vs-switzerland": {
+    "match_id": "B-bosnia-and-herzegovina-vs-switzerland",
+    "group": "B",
+    "home": "Bosnia and Herzegovina",
+    "away": "Switzerland",
+    "predicted": "away_win",
+    "confidence": 0.7137,
+    "explanation": "Switzerland are predicted to beat Bosnia and Herzegovina (71% confidence) primarily because of Switzerland's higher ELO rating (Switzerland 1786 vs Bosnia and Herzegovina 1580, +206), squad market value (Bosnia and Herzegovina n/a vs Switzerland €2.0B), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5297,
+        "value": -205.69,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Bosnia and Herzegovina 1580, +206)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.4334,
+        "value": 2027975000.0,
+        "description": "squad market value (Bosnia and Herzegovina n/a vs Switzerland €2.0B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.2502,
+        "value": 0.2343,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Bosnia and Herzegovina 1580, +206)"
+      },
+      {
+        "feature": "h2h_avg_goals_away",
+        "shap_value": -0.0595,
+        "value": 0.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0411,
+        "value": -205.69,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Bosnia and Herzegovina 1580, +206)"
+      }
+    ]
+  },
+  "B-qatar-vs-switzerland": {
+    "match_id": "B-qatar-vs-switzerland",
+    "group": "B",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "predicted": "away_win",
+    "confidence": 0.7275,
+    "explanation": "Switzerland are predicted to beat Qatar (73% confidence) primarily because of Switzerland's higher ELO rating (Switzerland 1786 vs Qatar 1585, +200), and squad market value (Qatar €45M vs Switzerland €2.0B).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5204,
+        "value": -200.17,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Qatar 1585, +200)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.4332,
+        "value": 2027975000.0,
+        "description": "squad market value (Qatar €45M vs Switzerland €2.0B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.2448,
+        "value": 0.2401,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Qatar 1585, +200)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0441,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0387,
+        "value": -200.17,
+        "description": "Switzerland's higher ELO rating (Switzerland 1786 vs Qatar 1585, +200)"
+      }
+    ]
+  },
+  "C-brazil-vs-morocco": {
+    "match_id": "C-brazil-vs-morocco",
+    "group": "C",
+    "home": "Brazil",
+    "away": "Morocco",
+    "predicted": "home_win",
+    "confidence": 0.4567,
+    "explanation": "Brazil are predicted to beat Morocco (46% confidence) primarily because of squad market value (Brazil €6.4B vs Morocco n/a), Brazil's higher ELO rating (Brazil 1895 vs Morocco 1824, +72), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.2156,
+        "value": 7201185.0,
+        "description": "squad market value (Brazil €6.4B vs Morocco n/a)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.089,
+        "value": 71.71,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Morocco 1824, +72)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0527,
+        "value": 0.6018,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Morocco 1824, +72)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.0387,
+        "value": -1.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0313,
+        "value": 71.71,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Morocco 1824, +72)"
+      }
+    ]
+  },
+  "C-brazil-vs-haiti": {
+    "match_id": "C-brazil-vs-haiti",
+    "group": "C",
+    "home": "Brazil",
+    "away": "Haiti",
+    "predicted": "home_win",
+    "confidence": 0.753,
+    "explanation": "Brazil are predicted to beat Haiti (75% confidence) primarily because of squad market value (Brazil €6.4B vs Haiti €8M), and Brazil's higher ELO rating (Brazil 1895 vs Haiti 1624, +271).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.3631,
+        "value": 834.0196,
+        "description": "squad market value (Brazil €6.4B vs Haiti €8M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3546,
+        "value": 271.13,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Haiti 1624, +271)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1633,
+        "value": 7201185.0,
+        "description": "squad market value (Brazil €6.4B vs Haiti €8M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1498,
+        "value": 0.8265,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Haiti 1624, +271)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.069,
+        "value": 271.13,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Haiti 1624, +271)"
+      }
+    ]
+  },
+  "C-brazil-vs-scotland": {
+    "match_id": "C-brazil-vs-scotland",
+    "group": "C",
+    "home": "Brazil",
+    "away": "Scotland",
+    "predicted": "home_win",
+    "confidence": 0.66,
+    "explanation": "Brazil are predicted to beat Scotland (66% confidence) primarily because of Brazil's higher ELO rating (Brazil 1895 vs Scotland 1677, +218), squad market value (Brazil €6.4B vs Scotland €1.2B), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2827,
+        "value": 217.91,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Scotland 1677, +218)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1825,
+        "value": 7201185.0,
+        "description": "squad market value (Brazil €6.4B vs Scotland €1.2B)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1533,
+        "value": 1205660000.0,
+        "description": "squad market value (Brazil €6.4B vs Scotland €1.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1005,
+        "value": 0.7781,
+        "description": "Brazil's higher ELO rating (Brazil 1895 vs Scotland 1677, +218)"
+      },
+      {
+        "feature": "h2h_avg_goals_away",
+        "shap_value": 0.0887,
+        "value": 0.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      }
+    ]
+  },
+  "C-morocco-vs-haiti": {
+    "match_id": "C-morocco-vs-haiti",
+    "group": "C",
+    "home": "Morocco",
+    "away": "Haiti",
+    "predicted": "home_win",
+    "confidence": 0.7355,
+    "explanation": "Morocco are predicted to beat Haiti (74% confidence) primarily because of Morocco's higher ELO rating (Morocco 1824 vs Haiti 1624, +199), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2744,
+        "value": 199.42,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Haiti 1624, +199)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1001,
+        "value": 0.7591,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Haiti 1624, +199)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0763,
+        "value": 199.42,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Haiti 1624, +199)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0293,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      },
+      {
+        "feature": "elo_away",
+        "shap_value": -0.0289,
+        "value": 1624.18,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Haiti 1624, +199)"
+      }
+    ]
+  },
+  "C-morocco-vs-scotland": {
+    "match_id": "C-morocco-vs-scotland",
+    "group": "C",
+    "home": "Morocco",
+    "away": "Scotland",
+    "predicted": "home_win",
+    "confidence": 0.5852,
+    "explanation": "Morocco are predicted to beat Scotland (59% confidence) primarily because of Morocco's higher ELO rating (Morocco 1824 vs Scotland 1677, +146), squad market value (Morocco n/a vs Scotland €1.2B), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.163,
+        "value": 146.2,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Scotland 1677, +146)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1247,
+        "value": 1205660000.0,
+        "description": "squad market value (Morocco n/a vs Scotland €1.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0814,
+        "value": 0.6988,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Scotland 1677, +146)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0806,
+        "value": 146.2,
+        "description": "Morocco's higher ELO rating (Morocco 1824 vs Scotland 1677, +146)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0328,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      }
+    ]
+  },
+  "C-haiti-vs-scotland": {
+    "match_id": "C-haiti-vs-scotland",
+    "group": "C",
+    "home": "Haiti",
+    "away": "Scotland",
+    "predicted": "away_win",
+    "confidence": 0.6122,
+    "explanation": "Scotland are predicted to beat Haiti (61% confidence) primarily because of squad market value (Haiti €8M vs Scotland €1.2B), and Scotland's higher ELO rating (Scotland 1677 vs Haiti 1624, +53).",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.2754,
+        "value": 1205660000.0,
+        "description": "squad market value (Haiti €8M vs Scotland €1.2B)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2618,
+        "value": -53.22,
+        "description": "Scotland's higher ELO rating (Scotland 1677 vs Haiti 1624, +53)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.106,
+        "value": 0.424,
+        "description": "Scotland's higher ELO rating (Scotland 1677 vs Haiti 1624, +53)"
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.047,
+        "value": 7650000.0,
+        "description": "squad market value (Haiti €8M vs Scotland €1.2B)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0448,
+        "value": 0.0063,
+        "description": "squad market value (Haiti €8M vs Scotland €1.2B)"
+      }
+    ]
+  },
+  "D-united-states-vs-paraguay": {
+    "match_id": "D-united-states-vs-paraguay",
+    "group": "D",
+    "home": "United States",
+    "away": "Paraguay",
+    "predicted": "away_win",
+    "confidence": 0.4793,
+    "explanation": "Paraguay are predicted to beat United States (48% confidence) primarily because of Paraguay's higher ELO rating (Paraguay 1734 vs United States 1715, +18), squad market value (United States €1.9B vs Paraguay €272M), and their head-to-head history (6 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1458,
+        "value": -18.24,
+        "description": "Paraguay's higher ELO rating (Paraguay 1734 vs United States 1715, +18)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1212,
+        "value": 271800000.0,
+        "description": "squad market value (United States €1.9B vs Paraguay €272M)"
+      },
+      {
+        "feature": "h2h_home_win_rate",
+        "shap_value": -0.068,
+        "value": 0.6667,
+        "description": "their head-to-head history (6 prior meetings)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": -0.0673,
+        "value": 7.0846,
+        "description": "squad market value (United States €1.9B vs Paraguay €272M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0633,
+        "value": 0.4738,
+        "description": "Paraguay's higher ELO rating (Paraguay 1734 vs United States 1715, +18)"
+      }
+    ]
+  },
+  "D-united-states-vs-australia": {
+    "match_id": "D-united-states-vs-australia",
+    "group": "D",
+    "home": "United States",
+    "away": "Australia",
+    "predicted": "away_win",
+    "confidence": 0.5579,
+    "explanation": "Australia are predicted to beat United States (56% confidence) primarily because of Australia's higher ELO rating (Australia 1780 vs United States 1715, +64), and squad market value (United States €1.9B vs Australia €227M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2568,
+        "value": -64.13,
+        "description": "Australia's higher ELO rating (Australia 1780 vs United States 1715, +64)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1404,
+        "value": 226650000.0,
+        "description": "squad market value (United States €1.9B vs Australia €227M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0977,
+        "value": 0.4087,
+        "description": "Australia's higher ELO rating (Australia 1780 vs United States 1715, +64)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": -0.0937,
+        "value": 8.4959,
+        "description": "squad market value (United States €1.9B vs Australia €227M)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0509,
+        "value": 1.0,
+        "description": null
+      }
+    ]
+  },
+  "D-united-states-vs-turkey": {
+    "match_id": "D-united-states-vs-turkey",
+    "group": "D",
+    "home": "United States",
+    "away": "Turkey",
+    "predicted": "away_win",
+    "confidence": 0.5794,
+    "explanation": "Turkey are predicted to beat United States (58% confidence) primarily because of Turkey's higher ELO rating (Turkey 1766 vs United States 1715, +51), squad market value (United States €1.9B vs Turkey n/a), and United States's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2794,
+        "value": -50.84,
+        "description": "Turkey's higher ELO rating (Turkey 1766 vs United States 1715, +51)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1068,
+        "value": 0.4274,
+        "description": "Turkey's higher ELO rating (Turkey 1766 vs United States 1715, +51)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.05,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0421,
+        "value": null,
+        "description": "squad market value (United States €1.9B vs Turkey n/a)"
+      },
+      {
+        "feature": "home_ga_last5",
+        "shap_value": 0.0364,
+        "value": 2.0,
+        "description": "United States's defensive record"
+      }
+    ]
+  },
+  "D-paraguay-vs-australia": {
+    "match_id": "D-paraguay-vs-australia",
+    "group": "D",
+    "home": "Paraguay",
+    "away": "Australia",
+    "predicted": "away_win",
+    "confidence": 0.4632,
+    "explanation": "Australia are predicted to beat Paraguay (46% confidence) primarily because of Australia's higher ELO rating (Australia 1780 vs Paraguay 1734, +46), squad market value (Paraguay €272M vs Australia €227M), and Paraguay's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2328,
+        "value": -45.89,
+        "description": "Australia's higher ELO rating (Australia 1780 vs Paraguay 1734, +46)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1024,
+        "value": 0.4343,
+        "description": "Australia's higher ELO rating (Australia 1780 vs Paraguay 1734, +46)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.0809,
+        "value": 226650000.0,
+        "description": "squad market value (Paraguay €272M vs Australia €227M)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0499,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0204,
+        "value": 1.0,
+        "description": "Paraguay's defensive record"
+      }
+    ]
+  },
+  "D-paraguay-vs-turkey": {
+    "match_id": "D-paraguay-vs-turkey",
+    "group": "D",
+    "home": "Paraguay",
+    "away": "Turkey",
+    "predicted": "away_win",
+    "confidence": 0.4832,
+    "explanation": "Turkey are predicted to beat Paraguay (48% confidence) primarily because of Turkey's higher ELO rating (Turkey 1766 vs Paraguay 1734, +33), squad market value (Paraguay €272M vs Turkey n/a), and Paraguay's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.168,
+        "value": -32.6,
+        "description": "Turkey's higher ELO rating (Turkey 1766 vs Paraguay 1734, +33)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0739,
+        "value": 0.4532,
+        "description": "Turkey's higher ELO rating (Turkey 1766 vs Paraguay 1734, +33)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0471,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0402,
+        "value": null,
+        "description": "squad market value (Paraguay €272M vs Turkey n/a)"
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0236,
+        "value": 1.0,
+        "description": "Paraguay's defensive record"
+      }
+    ]
+  },
+  "D-australia-vs-turkey": {
+    "match_id": "D-australia-vs-turkey",
+    "group": "D",
+    "home": "Australia",
+    "away": "Turkey",
+    "predicted": "away_win",
+    "confidence": 0.408,
+    "explanation": "Turkey are predicted to beat Australia (41% confidence) primarily because of Australia's higher ELO rating (Australia 1780 vs Turkey 1766, +13), squad market value (Australia €227M vs Turkey n/a), and Australia's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1459,
+        "value": 13.29,
+        "description": "Australia's higher ELO rating (Australia 1780 vs Turkey 1766, +13)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0627,
+        "value": 0.5191,
+        "description": "Australia's higher ELO rating (Australia 1780 vs Turkey 1766, +13)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0467,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0428,
+        "value": null,
+        "description": "squad market value (Australia €227M vs Turkey n/a)"
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0297,
+        "value": 0.9,
+        "description": "Australia's defensive record"
+      }
+    ]
+  },
+  "E-germany-vs-curacao": {
+    "match_id": "E-germany-vs-curacao",
+    "group": "E",
+    "home": "Germany",
+    "away": "Curaçao",
+    "predicted": "home_win",
+    "confidence": 0.7841,
+    "explanation": "Germany are predicted to beat Curaçao (78% confidence) primarily because of Germany's higher ELO rating (Germany 1844 vs Curaçao 1517, +328), squad market value (Germany €7.0B vs Curaçao n/a), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4429,
+        "value": 327.57,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Curaçao 1517, +328)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.3023,
+        "value": 327.57,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Curaçao 1517, +328)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1894,
+        "value": 0.8683,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Curaçao 1517, +328)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1536,
+        "value": 3096821.0,
+        "description": "squad market value (Germany €7.0B vs Curaçao n/a)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0384,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      }
+    ]
+  },
+  "E-germany-vs-ivory-coast": {
+    "match_id": "E-germany-vs-ivory-coast",
+    "group": "E",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "predicted": "home_win",
+    "confidence": 0.6892,
+    "explanation": "Germany are predicted to beat Ivory Coast (69% confidence) primarily because of squad market value (Germany €7.0B vs Ivory Coast n/a), Germany's higher ELO rating (Germany 1844 vs Ivory Coast 1702, +142), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1932,
+        "value": 3096821.0,
+        "description": "squad market value (Germany €7.0B vs Ivory Coast n/a)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1572,
+        "value": 142.5,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Ivory Coast 1702, +142)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0789,
+        "value": 142.5,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Ivory Coast 1702, +142)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.075,
+        "value": 0.6943,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Ivory Coast 1702, +142)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0384,
+        "value": 1.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      }
+    ]
+  },
+  "E-germany-vs-ecuador": {
+    "match_id": "E-germany-vs-ecuador",
+    "group": "E",
+    "home": "Germany",
+    "away": "Ecuador",
+    "predicted": "home_win",
+    "confidence": 0.5018,
+    "explanation": "Germany are predicted to beat Ecuador (50% confidence) primarily because of squad market value (Germany €7.0B vs Ecuador €445M), Germany's higher ELO rating (Germany 1844 vs Ecuador 1813, +32), and away draw last10.",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1638,
+        "value": 3096821.0,
+        "description": "squad market value (Germany €7.0B vs Ecuador €445M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1477,
+        "value": 31.51,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Ecuador 1813, +32)"
+      },
+      {
+        "feature": "away_draw_last10",
+        "shap_value": 0.1232,
+        "value": 0.8,
+        "description": "away draw last10"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0696,
+        "value": 0.5452,
+        "description": "Germany's higher ELO rating (Germany 1844 vs Ecuador 1813, +32)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0528,
+        "value": 445150000.0,
+        "description": "squad market value (Germany €7.0B vs Ecuador €445M)"
+      }
+    ]
+  },
+  "E-curacao-vs-ivory-coast": {
+    "match_id": "E-curacao-vs-ivory-coast",
+    "group": "E",
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "predicted": "away_win",
+    "confidence": 0.7151,
+    "explanation": "Ivory Coast are predicted to beat Curaçao (72% confidence) primarily because of Ivory Coast's higher ELO rating (Ivory Coast 1702 vs Curaçao 1517, +185), and squad market value (Curaçao n/a vs Ivory Coast n/a).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5145,
+        "value": -185.07,
+        "description": "Ivory Coast's higher ELO rating (Ivory Coast 1702 vs Curaçao 1517, +185)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.2241,
+        "value": 0.2563,
+        "description": "Ivory Coast's higher ELO rating (Ivory Coast 1702 vs Curaçao 1517, +185)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0501,
+        "value": -185.07,
+        "description": "Ivory Coast's higher ELO rating (Ivory Coast 1702 vs Curaçao 1517, +185)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0472,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0391,
+        "value": null,
+        "description": "squad market value (Curaçao n/a vs Ivory Coast n/a)"
+      }
+    ]
+  },
+  "E-curacao-vs-ecuador": {
+    "match_id": "E-curacao-vs-ecuador",
+    "group": "E",
+    "home": "Curaçao",
+    "away": "Ecuador",
+    "predicted": "away_win",
+    "confidence": 0.7805,
+    "explanation": "Ecuador are predicted to beat Curaçao (78% confidence) primarily because of Ecuador's higher ELO rating (Ecuador 1813 vs Curaçao 1517, +296), and squad market value (Curaçao n/a vs Ecuador €445M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.8713,
+        "value": -296.06,
+        "description": "Ecuador's higher ELO rating (Ecuador 1813 vs Curaçao 1517, +296)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.3883,
+        "value": 0.1539,
+        "description": "Ecuador's higher ELO rating (Ecuador 1813 vs Curaçao 1517, +296)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1271,
+        "value": 445150000.0,
+        "description": "squad market value (Curaçao n/a vs Ecuador €445M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0503,
+        "value": -296.06,
+        "description": "Ecuador's higher ELO rating (Ecuador 1813 vs Curaçao 1517, +296)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0384,
+        "value": 1.0,
+        "description": null
+      }
+    ]
+  },
+  "E-ivory-coast-vs-ecuador": {
+    "match_id": "E-ivory-coast-vs-ecuador",
+    "group": "E",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "predicted": "away_win",
+    "confidence": 0.5545,
+    "explanation": "Ecuador are predicted to beat Ivory Coast (55% confidence) primarily because of Ecuador's higher ELO rating (Ecuador 1813 vs Ivory Coast 1702, +111), squad market value (Ivory Coast n/a vs Ecuador €445M), and Ivory Coast's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3171,
+        "value": -110.99,
+        "description": "Ecuador's higher ELO rating (Ecuador 1813 vs Ivory Coast 1702, +111)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1326,
+        "value": 0.3455,
+        "description": "Ecuador's higher ELO rating (Ecuador 1813 vs Ivory Coast 1702, +111)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1112,
+        "value": 445150000.0,
+        "description": "squad market value (Ivory Coast n/a vs Ecuador €445M)"
+      },
+      {
+        "feature": "home_comp_ga_last10",
+        "shap_value": -0.0797,
+        "value": 0.4,
+        "description": "Ivory Coast's defensive record"
+      },
+      {
+        "feature": "home_gd_last10",
+        "shap_value": -0.0549,
+        "value": 1.9,
+        "description": "Ivory Coast's attacking output"
+      }
+    ]
+  },
+  "F-netherlands-vs-japan": {
+    "match_id": "F-netherlands-vs-japan",
+    "group": "F",
+    "home": "Netherlands",
+    "away": "Japan",
+    "predicted": "home_win",
+    "confidence": 0.4565,
+    "explanation": "Netherlands are predicted to beat Japan (46% confidence) primarily because of squad market value (Netherlands €7.0B vs Japan €2.3B), Netherlands's higher ELO rating (Netherlands 1867 vs Japan 1826, +41), and Japan's attacking output.",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.161,
+        "value": 4478805.0,
+        "description": "squad market value (Netherlands €7.0B vs Japan €2.3B)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1375,
+        "value": 40.76,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Japan 1826, +41)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.115,
+        "value": 2336595000.0,
+        "description": "squad market value (Netherlands €7.0B vs Japan €2.3B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0545,
+        "value": 0.5584,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Japan 1826, +41)"
+      },
+      {
+        "feature": "away_gd_last5",
+        "shap_value": -0.0309,
+        "value": 1.6,
+        "description": "Japan's attacking output"
+      }
+    ]
+  },
+  "F-netherlands-vs-sweden": {
+    "match_id": "F-netherlands-vs-sweden",
+    "group": "F",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "predicted": "home_win",
+    "confidence": 0.674,
+    "explanation": "Netherlands are predicted to beat Sweden (67% confidence) primarily because of Netherlands's higher ELO rating (Netherlands 1867 vs Sweden 1689, +178), and squad market value (Netherlands €7.0B vs Sweden €3.2B).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1643,
+        "value": 177.76,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Sweden 1689, +178)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1626,
+        "value": 4478805.0,
+        "description": "squad market value (Netherlands €7.0B vs Sweden €3.2B)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1362,
+        "value": 3220550000.0,
+        "description": "squad market value (Netherlands €7.0B vs Sweden €3.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.077,
+        "value": 0.7356,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Sweden 1689, +178)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.046,
+        "value": 177.76,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Sweden 1689, +178)"
+      }
+    ]
+  },
+  "F-netherlands-vs-tunisia": {
+    "match_id": "F-netherlands-vs-tunisia",
+    "group": "F",
+    "home": "Netherlands",
+    "away": "Tunisia",
+    "predicted": "home_win",
+    "confidence": 0.7183,
+    "explanation": "Netherlands are predicted to beat Tunisia (72% confidence) primarily because of squad market value (Netherlands €7.0B vs Tunisia €1M), and Netherlands's higher ELO rating (Netherlands 1867 vs Tunisia 1671, +196).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.5142,
+        "value": 6973.5,
+        "description": "squad market value (Netherlands €7.0B vs Tunisia €1M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.201,
+        "value": 195.86,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Tunisia 1671, +196)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1678,
+        "value": 4478805.0,
+        "description": "squad market value (Netherlands €7.0B vs Tunisia €1M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0849,
+        "value": 0.7554,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Tunisia 1671, +196)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0554,
+        "value": 195.86,
+        "description": "Netherlands's higher ELO rating (Netherlands 1867 vs Tunisia 1671, +196)"
+      }
+    ]
+  },
+  "F-japan-vs-sweden": {
+    "match_id": "F-japan-vs-sweden",
+    "group": "F",
+    "home": "Japan",
+    "away": "Sweden",
+    "predicted": "home_win",
+    "confidence": 0.6286,
+    "explanation": "Japan are predicted to beat Sweden (63% confidence) primarily because of Japan's higher ELO rating (Japan 1826 vs Sweden 1689, +137), and squad market value (Japan €2.3B vs Sweden €3.2B).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1527,
+        "value": 137.0,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Sweden 1689, +137)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1141,
+        "value": 3220550000.0,
+        "description": "squad market value (Japan €2.3B vs Sweden €3.2B)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.0833,
+        "value": 2619501.0,
+        "description": "squad market value (Japan €2.3B vs Sweden €3.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0744,
+        "value": 0.6875,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Sweden 1689, +137)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0419,
+        "value": 137.0,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Sweden 1689, +137)"
+      }
+    ]
+  },
+  "F-japan-vs-tunisia": {
+    "match_id": "F-japan-vs-tunisia",
+    "group": "F",
+    "home": "Japan",
+    "away": "Tunisia",
+    "predicted": "home_win",
+    "confidence": 0.6871,
+    "explanation": "Japan are predicted to beat Tunisia (69% confidence) primarily because of squad market value (Japan €2.3B vs Tunisia €1M), and Japan's higher ELO rating (Japan 1826 vs Tunisia 1671, +155).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.5336,
+        "value": 2336.595,
+        "description": "squad market value (Japan €2.3B vs Tunisia €1M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1731,
+        "value": 155.1,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Tunisia 1671, +155)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0869,
+        "value": 0.7095,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Tunisia 1671, +155)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0849,
+        "value": 155.1,
+        "description": "Japan's higher ELO rating (Japan 1826 vs Tunisia 1671, +155)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.0632,
+        "value": 2619501.0,
+        "description": "squad market value (Japan €2.3B vs Tunisia €1M)"
+      }
+    ]
+  },
+  "F-sweden-vs-tunisia": {
+    "match_id": "F-sweden-vs-tunisia",
+    "group": "F",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "predicted": "home_win",
+    "confidence": 0.4702,
+    "explanation": "Sweden are predicted to beat Tunisia (47% confidence) primarily because of squad market value (Sweden €3.2B vs Tunisia €1M), Sweden's higher ELO rating (Sweden 1689 vs Tunisia 1671, +18), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.5128,
+        "value": 3220.55,
+        "description": "squad market value (Sweden €3.2B vs Tunisia €1M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1486,
+        "value": 18.1,
+        "description": "Sweden's higher ELO rating (Sweden 1689 vs Tunisia 1671, +18)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.0897,
+        "value": 2872926.0,
+        "description": "squad market value (Sweden €3.2B vs Tunisia €1M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0653,
+        "value": 0.526,
+        "description": "Sweden's higher ELO rating (Sweden 1689 vs Tunisia 1671, +18)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.0465,
+        "value": -1.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      }
+    ]
+  },
+  "G-belgium-vs-egypt": {
+    "match_id": "G-belgium-vs-egypt",
+    "group": "G",
+    "home": "Belgium",
+    "away": "Egypt",
+    "predicted": "home_win",
+    "confidence": 0.5728,
+    "explanation": "Belgium are predicted to beat Egypt (57% confidence) primarily because of squad market value (Belgium €4.7B vs Egypt €562M), Belgium's higher ELO rating (Belgium 1815 vs Egypt 1718, +97), and their head-to-head history (3 prior meetings).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1816,
+        "value": 3108377.0,
+        "description": "squad market value (Belgium €4.7B vs Egypt €562M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0475,
+        "value": 97.06,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs Egypt 1718, +97)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0411,
+        "value": 562325000.0,
+        "description": "squad market value (Belgium €4.7B vs Egypt €562M)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": -0.0394,
+        "value": -0.6667,
+        "description": "their head-to-head history (3 prior meetings)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0311,
+        "value": 8.3966,
+        "description": "squad market value (Belgium €4.7B vs Egypt €562M)"
+      }
+    ]
+  },
+  "G-belgium-vs-iran": {
+    "match_id": "G-belgium-vs-iran",
+    "group": "G",
+    "home": "Belgium",
+    "away": "Iran",
+    "predicted": "home_win",
+    "confidence": 0.4532,
+    "explanation": "Belgium are predicted to beat Iran (45% confidence) primarily because of squad market value (Belgium €4.7B vs Iran €96M), Belgium's higher ELO rating (Belgium 1815 vs Iran 1792, +23), and Iran's defensive record.",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1763,
+        "value": 3108377.0,
+        "description": "squad market value (Belgium €4.7B vs Iran €96M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1533,
+        "value": 22.79,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs Iran 1792, +23)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.1489,
+        "value": 48.9541,
+        "description": "squad market value (Belgium €4.7B vs Iran €96M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.065,
+        "value": 0.5328,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs Iran 1792, +23)"
+      },
+      {
+        "feature": "away_ga_last5",
+        "shap_value": -0.036,
+        "value": 0.4,
+        "description": "Iran's defensive record"
+      }
+    ]
+  },
+  "G-belgium-vs-new-zealand": {
+    "match_id": "G-belgium-vs-new-zealand",
+    "group": "G",
+    "home": "Belgium",
+    "away": "New Zealand",
+    "predicted": "home_win",
+    "confidence": 0.6941,
+    "explanation": "Belgium are predicted to beat New Zealand (69% confidence) primarily because of squad market value (Belgium €4.7B vs New Zealand €103M), and Belgium's higher ELO rating (Belgium 1815 vs New Zealand 1647, +168).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.1855,
+        "value": 46.0534,
+        "description": "squad market value (Belgium €4.7B vs New Zealand €103M)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1803,
+        "value": 3108377.0,
+        "description": "squad market value (Belgium €4.7B vs New Zealand €103M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1655,
+        "value": 168.14,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs New Zealand 1647, +168)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0804,
+        "value": 0.7247,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs New Zealand 1647, +168)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0735,
+        "value": 168.14,
+        "description": "Belgium's higher ELO rating (Belgium 1815 vs New Zealand 1647, +168)"
+      }
+    ]
+  },
+  "G-egypt-vs-iran": {
+    "match_id": "G-egypt-vs-iran",
+    "group": "G",
+    "home": "Egypt",
+    "away": "Iran",
+    "predicted": "away_win",
+    "confidence": 0.4969,
+    "explanation": "Iran are predicted to beat Egypt (50% confidence) primarily because of Iran's higher ELO rating (Iran 1792 vs Egypt 1718, +74), and squad market value (Egypt €562M vs Iran €96M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3035,
+        "value": -74.27,
+        "description": "Iran's higher ELO rating (Iran 1792 vs Egypt 1718, +74)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1203,
+        "value": 0.3947,
+        "description": "Iran's higher ELO rating (Iran 1792 vs Egypt 1718, +74)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": -0.1087,
+        "value": 10413426.0,
+        "description": "squad market value (Egypt €562M vs Iran €96M)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.0753,
+        "value": 96450000.0,
+        "description": "squad market value (Egypt €562M vs Iran €96M)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": -0.0728,
+        "value": 5.8302,
+        "description": "squad market value (Egypt €562M vs Iran €96M)"
+      }
+    ]
+  },
+  "G-egypt-vs-new-zealand": {
+    "match_id": "G-egypt-vs-new-zealand",
+    "group": "G",
+    "home": "Egypt",
+    "away": "New Zealand",
+    "predicted": "home_win",
+    "confidence": 0.4977,
+    "explanation": "Egypt are predicted to beat New Zealand (50% confidence) primarily because of squad market value (Egypt €562M vs New Zealand €103M), Egypt's higher ELO rating (Egypt 1718 vs New Zealand 1647, +71), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1934,
+        "value": 10413426.0,
+        "description": "squad market value (Egypt €562M vs New Zealand €103M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.0987,
+        "value": 71.08,
+        "description": "Egypt's higher ELO rating (Egypt 1718 vs New Zealand 1647, +71)"
+      },
+      {
+        "feature": "h2h_avg_goals_away",
+        "shap_value": 0.0625,
+        "value": 0.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0567,
+        "value": 0.6009,
+        "description": "Egypt's higher ELO rating (Egypt 1718 vs New Zealand 1647, +71)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0386,
+        "value": 71.08,
+        "description": "Egypt's higher ELO rating (Egypt 1718 vs New Zealand 1647, +71)"
+      }
+    ]
+  },
+  "G-iran-vs-new-zealand": {
+    "match_id": "G-iran-vs-new-zealand",
+    "group": "G",
+    "home": "Iran",
+    "away": "New Zealand",
+    "predicted": "home_win",
+    "confidence": 0.6174,
+    "explanation": "Iran are predicted to beat New Zealand (62% confidence) primarily because of Iran's higher ELO rating (Iran 1792 vs New Zealand 1647, +145), and their head-to-head history (1 prior meeting).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1696,
+        "value": 145.35,
+        "description": "Iran's higher ELO rating (Iran 1792 vs New Zealand 1647, +145)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0962,
+        "value": 0.6978,
+        "description": "Iran's higher ELO rating (Iran 1792 vs New Zealand 1647, +145)"
+      },
+      {
+        "feature": "h2h_avg_goals_away",
+        "shap_value": 0.0814,
+        "value": 0.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0802,
+        "value": 145.35,
+        "description": "Iran's higher ELO rating (Iran 1792 vs New Zealand 1647, +145)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": 0.0759,
+        "value": 3.0,
+        "description": "their head-to-head history (1 prior meeting)"
+      }
+    ]
+  },
+  "H-spain-vs-cape-verde": {
+    "match_id": "H-spain-vs-cape-verde",
+    "group": "H",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "predicted": "home_win",
+    "confidence": 0.7971,
+    "explanation": "Spain are predicted to beat Cape Verde (80% confidence) primarily because of squad market value (Spain €12.8B vs Cape Verde €6M), and Spain's higher ELO rating (Spain 1992 vs Cape Verde 1604, +388).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.5288,
+        "value": 1963.9538,
+        "description": "squad market value (Spain €12.8B vs Cape Verde €6M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4567,
+        "value": 388.43,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Cape Verde 1604, +388)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.2841,
+        "value": 388.43,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Cape Verde 1604, +388)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1972,
+        "value": 0.9034,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Cape Verde 1604, +388)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1479,
+        "value": 6102151.0,
+        "description": "squad market value (Spain €12.8B vs Cape Verde €6M)"
+      }
+    ]
+  },
+  "H-spain-vs-saudi-arabia": {
+    "match_id": "H-spain-vs-saudi-arabia",
+    "group": "H",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "predicted": "home_win",
+    "confidence": 0.7952,
+    "explanation": "Spain are predicted to beat Saudi Arabia (80% confidence) primarily because of Spain's higher ELO rating (Spain 1992 vs Saudi Arabia 1633, +359), and squad market value (Spain €12.8B vs Saudi Arabia €850,000).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.451,
+        "value": 358.95,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Saudi Arabia 1633, +359)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.4476,
+        "value": 15018.4706,
+        "description": "squad market value (Spain €12.8B vs Saudi Arabia €850,000)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.3148,
+        "value": 358.95,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Saudi Arabia 1633, +359)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1945,
+        "value": 0.8876,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Saudi Arabia 1633, +359)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.143,
+        "value": 6102151.0,
+        "description": "squad market value (Spain €12.8B vs Saudi Arabia €850,000)"
+      }
+    ]
+  },
+  "H-spain-vs-uruguay": {
+    "match_id": "H-spain-vs-uruguay",
+    "group": "H",
+    "home": "Spain",
+    "away": "Uruguay",
+    "predicted": "home_win",
+    "confidence": 0.7056,
+    "explanation": "Spain are predicted to beat Uruguay (71% confidence) primarily because of Spain's higher ELO rating (Spain 1992 vs Uruguay 1830, +163), and squad market value (Spain €12.8B vs Uruguay €688M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1689,
+        "value": 162.52,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Uruguay 1830, +163)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1616,
+        "value": 6102151.0,
+        "description": "squad market value (Spain €12.8B vs Uruguay €688M)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0792,
+        "value": 687895000.0,
+        "description": "squad market value (Spain €12.8B vs Uruguay €688M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0777,
+        "value": 0.7182,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Uruguay 1830, +163)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0769,
+        "value": 162.52,
+        "description": "Spain's higher ELO rating (Spain 1992 vs Uruguay 1830, +163)"
+      }
+    ]
+  },
+  "H-cape-verde-vs-saudi-arabia": {
+    "match_id": "H-cape-verde-vs-saudi-arabia",
+    "group": "H",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "predicted": "away_win",
+    "confidence": 0.4552,
+    "explanation": "Saudi Arabia are predicted to beat Cape Verde (46% confidence) primarily because of Saudi Arabia's higher ELO rating (Saudi Arabia 1633 vs Cape Verde 1604, +29), and squad market value (Cape Verde €6M vs Saudi Arabia €850,000).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1669,
+        "value": -29.48,
+        "description": "Saudi Arabia's higher ELO rating (Saudi Arabia 1633 vs Cape Verde 1604, +29)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": -0.0778,
+        "value": 7.6471,
+        "description": "squad market value (Cape Verde €6M vs Saudi Arabia €850,000)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0717,
+        "value": 0.4577,
+        "description": "Saudi Arabia's higher ELO rating (Saudi Arabia 1633 vs Cape Verde 1604, +29)"
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0643,
+        "value": 6500000.0,
+        "description": "squad market value (Cape Verde €6M vs Saudi Arabia €850,000)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0469,
+        "value": 1.0,
+        "description": null
+      }
+    ]
+  },
+  "H-cape-verde-vs-uruguay": {
+    "match_id": "H-cape-verde-vs-uruguay",
+    "group": "H",
+    "home": "Cape Verde",
+    "away": "Uruguay",
+    "predicted": "away_win",
+    "confidence": 0.7399,
+    "explanation": "Uruguay are predicted to beat Cape Verde (74% confidence) primarily because of Uruguay's higher ELO rating (Uruguay 1830 vs Cape Verde 1604, +226), and squad market value (Cape Verde €6M vs Uruguay €688M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5707,
+        "value": -225.91,
+        "description": "Uruguay's higher ELO rating (Uruguay 1830 vs Cape Verde 1604, +226)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.2556,
+        "value": 0.2141,
+        "description": "Uruguay's higher ELO rating (Uruguay 1830 vs Cape Verde 1604, +226)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1799,
+        "value": 687895000.0,
+        "description": "squad market value (Cape Verde €6M vs Uruguay €688M)"
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0502,
+        "value": 6500000.0,
+        "description": "squad market value (Cape Verde €6M vs Uruguay €688M)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.044,
+        "value": 0.0094,
+        "description": "squad market value (Cape Verde €6M vs Uruguay €688M)"
+      }
+    ]
+  },
+  "H-saudi-arabia-vs-uruguay": {
+    "match_id": "H-saudi-arabia-vs-uruguay",
+    "group": "H",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "predicted": "away_win",
+    "confidence": 0.6809,
+    "explanation": "Uruguay are predicted to beat Saudi Arabia (68% confidence) primarily because of Uruguay's higher ELO rating (Uruguay 1830 vs Saudi Arabia 1633, +196), and squad market value (Saudi Arabia €850,000 vs Uruguay €688M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5372,
+        "value": -196.43,
+        "description": "Uruguay's higher ELO rating (Uruguay 1830 vs Saudi Arabia 1633, +196)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.253,
+        "value": 0.244,
+        "description": "Uruguay's higher ELO rating (Uruguay 1830 vs Saudi Arabia 1633, +196)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1837,
+        "value": 687895000.0,
+        "description": "squad market value (Saudi Arabia €850,000 vs Uruguay €688M)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0459,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0441,
+        "value": 850000.0,
+        "description": "squad market value (Saudi Arabia €850,000 vs Uruguay €688M)"
+      }
+    ]
+  },
+  "I-france-vs-senegal": {
+    "match_id": "I-france-vs-senegal",
+    "group": "I",
+    "home": "France",
+    "away": "Senegal",
+    "predicted": "home_win",
+    "confidence": 0.6224,
+    "explanation": "France are predicted to beat Senegal (62% confidence) primarily because of squad market value (France €16.0B vs Senegal €448M), and France's higher ELO rating (France 1947 vs Senegal 1811, +136).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.2368,
+        "value": 6980200.0,
+        "description": "squad market value (France €16.0B vs Senegal €448M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1563,
+        "value": 135.89,
+        "description": "France's higher ELO rating (France 1947 vs Senegal 1811, +136)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0831,
+        "value": 0.6862,
+        "description": "France's higher ELO rating (France 1947 vs Senegal 1811, +136)"
+      },
+      {
+        "feature": "elo_home",
+        "shap_value": -0.071,
+        "value": 1946.54,
+        "description": "France's higher ELO rating (France 1947 vs Senegal 1811, +136)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0587,
+        "value": 447950000.0,
+        "description": "squad market value (France €16.0B vs Senegal €448M)"
+      }
+    ]
+  },
+  "I-france-vs-iraq": {
+    "match_id": "I-france-vs-iraq",
+    "group": "I",
+    "home": "France",
+    "away": "Iraq",
+    "predicted": "home_win",
+    "confidence": 0.763,
+    "explanation": "France are predicted to beat Iraq (76% confidence) primarily because of squad market value (France €16.0B vs Iraq €15M), and France's higher ELO rating (France 1947 vs Iraq 1681, +266).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.484,
+        "value": 1101.0007,
+        "description": "squad market value (France €16.0B vs Iraq €15M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3439,
+        "value": 265.6,
+        "description": "France's higher ELO rating (France 1947 vs Iraq 1681, +266)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1869,
+        "value": 6980200.0,
+        "description": "squad market value (France €16.0B vs Iraq €15M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1493,
+        "value": 0.8218,
+        "description": "France's higher ELO rating (France 1947 vs Iraq 1681, +266)"
+      },
+      {
+        "feature": "elo_home_adj",
+        "shap_value": -0.0684,
+        "value": 1946.54,
+        "description": "France's higher ELO rating (France 1947 vs Iraq 1681, +266)"
+      }
+    ]
+  },
+  "I-france-vs-norway": {
+    "match_id": "I-france-vs-norway",
+    "group": "I",
+    "home": "France",
+    "away": "Norway",
+    "predicted": "home_win",
+    "confidence": 0.6596,
+    "explanation": "France are predicted to beat Norway (66% confidence) primarily because of France's higher ELO rating (France 1947 vs Norway 1725, +222), and squad market value (France €16.0B vs Norway €4.2B).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2649,
+        "value": 221.53,
+        "description": "France's higher ELO rating (France 1947 vs Norway 1725, +222)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.2213,
+        "value": 6980200.0,
+        "description": "squad market value (France €16.0B vs Norway €4.2B)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1253,
+        "value": 4210450000.0,
+        "description": "squad market value (France €16.0B vs Norway €4.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0968,
+        "value": 0.7816,
+        "description": "France's higher ELO rating (France 1947 vs Norway 1725, +222)"
+      },
+      {
+        "feature": "elo_home",
+        "shap_value": -0.0727,
+        "value": 1946.54,
+        "description": "France's higher ELO rating (France 1947 vs Norway 1725, +222)"
+      }
+    ]
+  },
+  "I-senegal-vs-iraq": {
+    "match_id": "I-senegal-vs-iraq",
+    "group": "I",
+    "home": "Senegal",
+    "away": "Iraq",
+    "predicted": "home_win",
+    "confidence": 0.6019,
+    "explanation": "Senegal are predicted to beat Iraq (60% confidence) primarily because of Senegal's higher ELO rating (Senegal 1811 vs Iraq 1681, +130), their head-to-head history (0 prior meetings), and Senegal's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1509,
+        "value": 129.71,
+        "description": "Senegal's higher ELO rating (Senegal 1811 vs Iraq 1681, +130)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0787,
+        "value": 0.6785,
+        "description": "Senegal's higher ELO rating (Senegal 1811 vs Iraq 1681, +130)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0506,
+        "value": 129.71,
+        "description": "Senegal's higher ELO rating (Senegal 1811 vs Iraq 1681, +130)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0305,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      },
+      {
+        "feature": "home_ga_last5",
+        "shap_value": 0.0279,
+        "value": 0.8,
+        "description": "Senegal's defensive record"
+      }
+    ]
+  },
+  "I-senegal-vs-norway": {
+    "match_id": "I-senegal-vs-norway",
+    "group": "I",
+    "home": "Senegal",
+    "away": "Norway",
+    "predicted": "home_win",
+    "confidence": 0.4143,
+    "explanation": "Senegal are predicted to beat Norway (41% confidence) primarily because of squad market value (Senegal €448M vs Norway €4.2B), Norway's attacking output, and Senegal's higher ELO rating (Senegal 1811 vs Norway 1725, +86).",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.141,
+        "value": 4210450000.0,
+        "description": "squad market value (Senegal €448M vs Norway €4.2B)"
+      },
+      {
+        "feature": "away_gd_last10",
+        "shap_value": -0.0641,
+        "value": 2.5,
+        "description": "Norway's attacking output"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.051,
+        "value": 85.64,
+        "description": "Senegal's higher ELO rating (Senegal 1811 vs Norway 1725, +86)"
+      },
+      {
+        "feature": "away_gd_last5",
+        "shap_value": -0.0315,
+        "value": 1.0,
+        "description": "Norway's attacking output"
+      },
+      {
+        "feature": "away_comp_gf_last10",
+        "shap_value": 0.0302,
+        "value": 4.3,
+        "description": "Norway's attacking output"
+      }
+    ]
+  },
+  "I-iraq-vs-norway": {
+    "match_id": "I-iraq-vs-norway",
+    "group": "I",
+    "home": "Iraq",
+    "away": "Norway",
+    "predicted": "away_win",
+    "confidence": 0.6047,
+    "explanation": "Norway are predicted to beat Iraq (60% confidence) primarily because of squad market value (Iraq €15M vs Norway €4.2B), and Norway's higher ELO rating (Norway 1725 vs Iraq 1681, +44).",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.3219,
+        "value": 4210450000.0,
+        "description": "squad market value (Iraq €15M vs Norway €4.2B)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1965,
+        "value": -44.07,
+        "description": "Norway's higher ELO rating (Norway 1725 vs Iraq 1681, +44)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.079,
+        "value": 0.4369,
+        "description": "Norway's higher ELO rating (Norway 1725 vs Iraq 1681, +44)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0483,
+        "value": 1.0,
+        "description": null
+      },
+      {
+        "feature": "home_squad_value",
+        "shap_value": -0.0467,
+        "value": 14550000.0,
+        "description": "squad market value (Iraq €15M vs Norway €4.2B)"
+      }
+    ]
+  },
+  "J-argentina-vs-algeria": {
+    "match_id": "J-argentina-vs-algeria",
+    "group": "J",
+    "home": "Argentina",
+    "away": "Algeria",
+    "predicted": "home_win",
+    "confidence": 0.7462,
+    "explanation": "Argentina are predicted to beat Algeria (75% confidence) primarily because of Argentina's higher ELO rating (Argentina 1986 vs Algeria 1748, +238), and squad market value (Argentina €1.2B vs Algeria €22M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3335,
+        "value": 238.34,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Algeria 1748, +238)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1539,
+        "value": 4306968.0,
+        "description": "squad market value (Argentina €1.2B vs Algeria €22M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1259,
+        "value": 0.7977,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Algeria 1748, +238)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.1117,
+        "value": 54.789,
+        "description": "squad market value (Argentina €1.2B vs Algeria €22M)"
+      },
+      {
+        "feature": "elo_home",
+        "shap_value": -0.0869,
+        "value": 1986.25,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Algeria 1748, +238)"
+      }
+    ]
+  },
+  "J-argentina-vs-austria": {
+    "match_id": "J-argentina-vs-austria",
+    "group": "J",
+    "home": "Argentina",
+    "away": "Austria",
+    "predicted": "home_win",
+    "confidence": 0.7417,
+    "explanation": "Argentina are predicted to beat Austria (74% confidence) primarily because of Argentina's higher ELO rating (Argentina 1986 vs Austria 1724, +262), and squad market value (Argentina €1.2B vs Austria €1.2B).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3441,
+        "value": 262.36,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Austria 1724, +262)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1832,
+        "value": 4306968.0,
+        "description": "squad market value (Argentina €1.2B vs Austria €1.2B)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1452,
+        "value": 0.8191,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Austria 1724, +262)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1053,
+        "value": 1198910000.0,
+        "description": "squad market value (Argentina €1.2B vs Austria €1.2B)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0758,
+        "value": 262.36,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Austria 1724, +262)"
+      }
+    ]
+  },
+  "J-argentina-vs-jordan": {
+    "match_id": "J-argentina-vs-jordan",
+    "group": "J",
+    "home": "Argentina",
+    "away": "Jordan",
+    "predicted": "home_win",
+    "confidence": 0.759,
+    "explanation": "Argentina are predicted to beat Jordan (76% confidence) primarily because of Argentina's higher ELO rating (Argentina 1986 vs Jordan 1680, +306), and squad market value (Argentina €1.2B vs Jordan €13M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4114,
+        "value": 305.82,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Jordan 1680, +306)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.2618,
+        "value": 305.82,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Jordan 1680, +306)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.1813,
+        "value": 93.9394,
+        "description": "squad market value (Argentina €1.2B vs Jordan €13M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1746,
+        "value": 0.8533,
+        "description": "Argentina's higher ELO rating (Argentina 1986 vs Jordan 1680, +306)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1522,
+        "value": 4306968.0,
+        "description": "squad market value (Argentina €1.2B vs Jordan €13M)"
+      }
+    ]
+  },
+  "J-algeria-vs-austria": {
+    "match_id": "J-algeria-vs-austria",
+    "group": "J",
+    "home": "Algeria",
+    "away": "Austria",
+    "predicted": "away_win",
+    "confidence": 0.392,
+    "explanation": "Austria are predicted to beat Algeria (39% confidence) primarily because of squad market value (Algeria €22M vs Austria €1.2B), Algeria's defensive record, and Algeria's higher ELO rating (Algeria 1748 vs Austria 1724, +24).",
+    "top_features": [
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.2306,
+        "value": 1198910000.0,
+        "description": "squad market value (Algeria €22M vs Austria €1.2B)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": -0.0856,
+        "value": 2721875.0,
+        "description": "squad market value (Algeria €22M vs Austria €1.2B)"
+      },
+      {
+        "feature": "home_comp_ga_last10",
+        "shap_value": -0.0783,
+        "value": 0.4,
+        "description": "Algeria's defensive record"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.0654,
+        "value": 24.02,
+        "description": "Algeria's higher ELO rating (Algeria 1748 vs Austria 1724, +24)"
+      },
+      {
+        "feature": "home_gd_last10",
+        "shap_value": -0.0566,
+        "value": 1.8,
+        "description": "Algeria's attacking output"
+      }
+    ]
+  },
+  "J-algeria-vs-jordan": {
+    "match_id": "J-algeria-vs-jordan",
+    "group": "J",
+    "home": "Algeria",
+    "away": "Jordan",
+    "predicted": "home_win",
+    "confidence": 0.47,
+    "explanation": "Algeria are predicted to beat Jordan (47% confidence) primarily because of Algeria's higher ELO rating (Algeria 1748 vs Jordan 1680, +67), squad market value (Algeria €22M vs Jordan €13M), and Jordan's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.0959,
+        "value": 67.48,
+        "description": "Algeria's higher ELO rating (Algeria 1748 vs Jordan 1680, +67)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.0812,
+        "value": 2721875.0,
+        "description": "squad market value (Algeria €22M vs Jordan €13M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.055,
+        "value": 0.5959,
+        "description": "Algeria's higher ELO rating (Algeria 1748 vs Jordan 1680, +67)"
+      },
+      {
+        "feature": "away_comp_ga_last10",
+        "shap_value": 0.0312,
+        "value": 0.6,
+        "description": "Jordan's defensive record"
+      },
+      {
+        "feature": "home_ga_last5",
+        "shap_value": 0.0309,
+        "value": 0.6,
+        "description": "Algeria's defensive record"
+      }
+    ]
+  },
+  "J-austria-vs-jordan": {
+    "match_id": "J-austria-vs-jordan",
+    "group": "J",
+    "home": "Austria",
+    "away": "Jordan",
+    "predicted": "home_win",
+    "confidence": 0.4735,
+    "explanation": "Austria are predicted to beat Jordan (47% confidence) primarily because of squad market value (Austria €1.2B vs Jordan €13M), Austria's higher ELO rating (Austria 1724 vs Jordan 1680, +43), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.2067,
+        "value": 94.4024,
+        "description": "squad market value (Austria €1.2B vs Jordan €13M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1376,
+        "value": 43.46,
+        "description": "Austria's higher ELO rating (Austria 1724 vs Jordan 1680, +43)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0507,
+        "value": 0.5622,
+        "description": "Austria's higher ELO rating (Austria 1724 vs Jordan 1680, +43)"
+      },
+      {
+        "feature": "h2h_gd_avg",
+        "shap_value": 0.0296,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      },
+      {
+        "feature": "away_comp_ga_last10",
+        "shap_value": 0.0294,
+        "value": 0.6,
+        "description": "Jordan's defensive record"
+      }
+    ]
+  },
+  "K-portugal-vs-dr-congo": {
+    "match_id": "K-portugal-vs-dr-congo",
+    "group": "K",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "predicted": "home_win",
+    "confidence": 0.7339,
+    "explanation": "Portugal are predicted to beat DR Congo (73% confidence) primarily because of Portugal's higher ELO rating (Portugal 1873 vs DR Congo 1643, +230), squad market value (Portugal €9.5B vs DR Congo n/a), and their head-to-head history (0 prior meetings).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.2857,
+        "value": 229.62,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs DR Congo 1643, +230)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1629,
+        "value": 4064953.0,
+        "description": "squad market value (Portugal €9.5B vs DR Congo n/a)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1036,
+        "value": 0.7895,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs DR Congo 1643, +230)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0768,
+        "value": 229.62,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs DR Congo 1643, +230)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0344,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      }
+    ]
+  },
+  "K-portugal-vs-uzbekistan": {
+    "match_id": "K-portugal-vs-uzbekistan",
+    "group": "K",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "predicted": "home_win",
+    "confidence": 0.6885,
+    "explanation": "Portugal are predicted to beat Uzbekistan (69% confidence) primarily because of squad market value (Portugal €9.5B vs Uzbekistan €238M), and Portugal's higher ELO rating (Portugal 1873 vs Uzbekistan 1724, +149).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1677,
+        "value": 4064953.0,
+        "description": "squad market value (Portugal €9.5B vs Uzbekistan €238M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1542,
+        "value": 148.98,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs Uzbekistan 1724, +149)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0806,
+        "value": 148.98,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs Uzbekistan 1724, +149)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0792,
+        "value": 0.7022,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs Uzbekistan 1724, +149)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0561,
+        "value": 39.7952,
+        "description": "squad market value (Portugal €9.5B vs Uzbekistan €238M)"
+      }
+    ]
+  },
+  "K-portugal-vs-colombia": {
+    "match_id": "K-portugal-vs-colombia",
+    "group": "K",
+    "home": "Portugal",
+    "away": "Colombia",
+    "predicted": "home_win",
+    "confidence": 0.4468,
+    "explanation": "Portugal are predicted to beat Colombia (45% confidence) primarily because of squad market value (Portugal €9.5B vs Colombia €938M), and Portugal's higher ELO rating (Portugal 1873 vs Colombia 1870, +3).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1744,
+        "value": 4064953.0,
+        "description": "squad market value (Portugal €9.5B vs Colombia €938M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1737,
+        "value": 3.26,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs Colombia 1870, +3)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0921,
+        "value": 938135000.0,
+        "description": "squad market value (Portugal €9.5B vs Colombia €938M)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0663,
+        "value": 0.5047,
+        "description": "Portugal's higher ELO rating (Portugal 1873 vs Colombia 1870, +3)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0382,
+        "value": 10.0916,
+        "description": "squad market value (Portugal €9.5B vs Colombia €938M)"
+      }
+    ]
+  },
+  "K-dr-congo-vs-uzbekistan": {
+    "match_id": "K-dr-congo-vs-uzbekistan",
+    "group": "K",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "predicted": "away_win",
+    "confidence": 0.4731,
+    "explanation": "Uzbekistan are predicted to beat DR Congo (47% confidence) primarily because of Uzbekistan's higher ELO rating (Uzbekistan 1724 vs DR Congo 1643, +81), squad market value (DR Congo n/a vs Uzbekistan €238M), and DR Congo's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3149,
+        "value": -80.64,
+        "description": "Uzbekistan's higher ELO rating (Uzbekistan 1724 vs DR Congo 1643, +81)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1281,
+        "value": 0.386,
+        "description": "Uzbekistan's higher ELO rating (Uzbekistan 1724 vs DR Congo 1643, +81)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.09,
+        "value": 237900000.0,
+        "description": "squad market value (DR Congo n/a vs Uzbekistan €238M)"
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0437,
+        "value": 0.6,
+        "description": "DR Congo's defensive record"
+      },
+      {
+        "feature": "home_ga_last5",
+        "shap_value": -0.0427,
+        "value": 0.4,
+        "description": "DR Congo's defensive record"
+      }
+    ]
+  },
+  "K-dr-congo-vs-colombia": {
+    "match_id": "K-dr-congo-vs-colombia",
+    "group": "K",
+    "home": "DR Congo",
+    "away": "Colombia",
+    "predicted": "away_win",
+    "confidence": 0.7199,
+    "explanation": "Colombia are predicted to beat DR Congo (72% confidence) primarily because of Colombia's higher ELO rating (Colombia 1870 vs DR Congo 1643, +226), squad market value (DR Congo n/a vs Colombia €938M), and DR Congo's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.5719,
+        "value": -226.36,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs DR Congo 1643, +226)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.2537,
+        "value": 0.2137,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs DR Congo 1643, +226)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1767,
+        "value": 938135000.0,
+        "description": "squad market value (DR Congo n/a vs Colombia €938M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0445,
+        "value": -226.36,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs DR Congo 1643, +226)"
+      },
+      {
+        "feature": "home_ga_last10",
+        "shap_value": -0.0399,
+        "value": 0.6,
+        "description": "DR Congo's defensive record"
+      }
+    ]
+  },
+  "K-uzbekistan-vs-colombia": {
+    "match_id": "K-uzbekistan-vs-colombia",
+    "group": "K",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "predicted": "away_win",
+    "confidence": 0.6421,
+    "explanation": "Colombia are predicted to beat Uzbekistan (64% confidence) primarily because of Colombia's higher ELO rating (Colombia 1870 vs Uzbekistan 1724, +146), and squad market value (Uzbekistan €238M vs Colombia €938M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4138,
+        "value": -145.72,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs Uzbekistan 1724, +146)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1698,
+        "value": 0.3018,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs Uzbekistan 1724, +146)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": 0.1666,
+        "value": 938135000.0,
+        "description": "squad market value (Uzbekistan €238M vs Colombia €938M)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": -0.1066,
+        "value": 9912500.0,
+        "description": "squad market value (Uzbekistan €238M vs Colombia €938M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0452,
+        "value": -145.72,
+        "description": "Colombia's higher ELO rating (Colombia 1870 vs Uzbekistan 1724, +146)"
+      }
+    ]
+  },
+  "L-england-vs-croatia": {
+    "match_id": "L-england-vs-croatia",
+    "group": "L",
+    "home": "England",
+    "away": "Croatia",
+    "predicted": "home_win",
+    "confidence": 0.5167,
+    "explanation": "England are predicted to beat Croatia (52% confidence) primarily because of squad market value (England €16.2B vs Croatia €2.0B), and England's higher ELO rating (England 1886 vs Croatia 1836, +51).",
+    "top_features": [
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1951,
+        "value": 6832699.0,
+        "description": "squad market value (England €16.2B vs Croatia €2.0B)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.1076,
+        "value": 2000895000.0,
+        "description": "squad market value (England €16.2B vs Croatia €2.0B)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": -0.1069,
+        "value": 50.83,
+        "description": "England's higher ELO rating (England 1886 vs Croatia 1836, +51)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": -0.0521,
+        "value": 0.5726,
+        "description": "England's higher ELO rating (England 1886 vs Croatia 1836, +51)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0367,
+        "value": 8.0726,
+        "description": "squad market value (England €16.2B vs Croatia €2.0B)"
+      }
+    ]
+  },
+  "L-england-vs-ghana": {
+    "match_id": "L-england-vs-ghana",
+    "group": "L",
+    "home": "England",
+    "away": "Ghana",
+    "predicted": "home_win",
+    "confidence": 0.7752,
+    "explanation": "England are predicted to beat Ghana (78% confidence) primarily because of England's higher ELO rating (England 1886 vs Ghana 1584, +303), and squad market value (England €16.2B vs Ghana €505M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4119,
+        "value": 302.98,
+        "description": "England's higher ELO rating (England 1886 vs Ghana 1584, +303)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.2486,
+        "value": 302.98,
+        "description": "England's higher ELO rating (England 1886 vs Ghana 1584, +303)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1792,
+        "value": 0.8512,
+        "description": "England's higher ELO rating (England 1886 vs Ghana 1584, +303)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.167,
+        "value": 6832699.0,
+        "description": "squad market value (England €16.2B vs Ghana €505M)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0539,
+        "value": 505145000.0,
+        "description": "squad market value (England €16.2B vs Ghana €505M)"
+      }
+    ]
+  },
+  "L-england-vs-panama": {
+    "match_id": "L-england-vs-panama",
+    "group": "L",
+    "home": "England",
+    "away": "Panama",
+    "predicted": "home_win",
+    "confidence": 0.7238,
+    "explanation": "England are predicted to beat Panama (72% confidence) primarily because of squad market value (England €16.2B vs Panama €56M), and England's higher ELO rating (England 1886 vs Panama 1741, +145).",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.3107,
+        "value": 286.0115,
+        "description": "squad market value (England €16.2B vs Panama €56M)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": 0.1668,
+        "value": 6832699.0,
+        "description": "squad market value (England €16.2B vs Panama €56M)"
+      },
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.1663,
+        "value": 145.13,
+        "description": "England's higher ELO rating (England 1886 vs Panama 1741, +145)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.0885,
+        "value": 0.6975,
+        "description": "England's higher ELO rating (England 1886 vs Panama 1741, +145)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0811,
+        "value": 145.13,
+        "description": "England's higher ELO rating (England 1886 vs Panama 1741, +145)"
+      }
+    ]
+  },
+  "L-croatia-vs-ghana": {
+    "match_id": "L-croatia-vs-ghana",
+    "group": "L",
+    "home": "Croatia",
+    "away": "Ghana",
+    "predicted": "home_win",
+    "confidence": 0.7397,
+    "explanation": "Croatia are predicted to beat Ghana (74% confidence) primarily because of Croatia's higher ELO rating (Croatia 1836 vs Ghana 1584, +252), squad market value (Croatia €2.0B vs Ghana €505M), and Ghana's defensive record.",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.3444,
+        "value": 252.15,
+        "description": "Croatia's higher ELO rating (Croatia 1836 vs Ghana 1584, +252)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1482,
+        "value": 0.8102,
+        "description": "Croatia's higher ELO rating (Croatia 1836 vs Ghana 1584, +252)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0737,
+        "value": 252.15,
+        "description": "Croatia's higher ELO rating (Croatia 1836 vs Ghana 1584, +252)"
+      },
+      {
+        "feature": "away_squad_value",
+        "shap_value": -0.0571,
+        "value": 505145000.0,
+        "description": "squad market value (Croatia €2.0B vs Ghana €505M)"
+      },
+      {
+        "feature": "away_comp_ga_last10",
+        "shap_value": 0.0379,
+        "value": 0.6,
+        "description": "Ghana's defensive record"
+      }
+    ]
+  },
+  "L-croatia-vs-panama": {
+    "match_id": "L-croatia-vs-panama",
+    "group": "L",
+    "home": "Croatia",
+    "away": "Panama",
+    "predicted": "home_win",
+    "confidence": 0.6085,
+    "explanation": "Croatia are predicted to beat Panama (61% confidence) primarily because of squad market value (Croatia €2.0B vs Panama €56M), Croatia's higher ELO rating (Croatia 1836 vs Panama 1741, +94), and Panama's attacking output.",
+    "top_features": [
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": 0.0644,
+        "value": 35.4297,
+        "description": "squad market value (Croatia €2.0B vs Panama €56M)"
+      },
+      {
+        "feature": "elo_diff",
+        "shap_value": 0.0529,
+        "value": 94.3,
+        "description": "Croatia's higher ELO rating (Croatia 1836 vs Panama 1741, +94)"
+      },
+      {
+        "feature": "away_gd_last5",
+        "shap_value": -0.0375,
+        "value": 0.6,
+        "description": "Panama's attacking output"
+      },
+      {
+        "feature": "elo_away",
+        "shap_value": -0.0281,
+        "value": 1741.37,
+        "description": "Croatia's higher ELO rating (Croatia 1836 vs Panama 1741, +94)"
+      },
+      {
+        "feature": "h2h_count",
+        "shap_value": 0.0266,
+        "value": 0.0,
+        "description": "their head-to-head history (0 prior meetings)"
+      }
+    ]
+  },
+  "L-ghana-vs-panama": {
+    "match_id": "L-ghana-vs-panama",
+    "group": "L",
+    "home": "Ghana",
+    "away": "Panama",
+    "predicted": "away_win",
+    "confidence": 0.573,
+    "explanation": "Panama are predicted to beat Ghana (57% confidence) primarily because of Panama's higher ELO rating (Panama 1741 vs Ghana 1584, +158), and squad market value (Ghana €505M vs Panama €56M).",
+    "top_features": [
+      {
+        "feature": "elo_diff_adj",
+        "shap_value": 0.4435,
+        "value": -157.85,
+        "description": "Panama's higher ELO rating (Panama 1741 vs Ghana 1584, +158)"
+      },
+      {
+        "feature": "elo_expected_home",
+        "shap_value": 0.1734,
+        "value": 0.2873,
+        "description": "Panama's higher ELO rating (Panama 1741 vs Ghana 1584, +158)"
+      },
+      {
+        "feature": "squad_value_ratio",
+        "shap_value": -0.1072,
+        "value": 8.9446,
+        "description": "squad market value (Ghana €505M vs Panama €56M)"
+      },
+      {
+        "feature": "home_avg_player_value",
+        "shap_value": -0.0744,
+        "value": 2327857.0,
+        "description": "squad market value (Ghana €505M vs Panama €56M)"
+      },
+      {
+        "feature": "is_neutral",
+        "shap_value": 0.0553,
+        "value": 1.0,
+        "description": null
+      }
+    ]
+  }
+}

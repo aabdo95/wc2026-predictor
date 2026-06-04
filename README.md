@@ -7,6 +7,8 @@
 
 End-to-end ML system predicting every FIFA World Cup 2026 match, powered by a Dixon-Coles + gradient-boosted ensemble and 50,000 Monte Carlo simulations.
 
+**🔗 Live demo: <!-- LIVE_URL -->https://wc2026-predictor.vercel.app<!-- /LIVE_URL -->**
+
 <!-- Add dashboard screenshot here -->
 
 ---

@@ -1,0 +1,82 @@
+{
+  "n_simulations": 50000,
+  "blend_weight": 0.25,
+  "blend_description": "75% data-driven simulation + 25% bookmaker market prior, renormalised, then capped at each team's simulated P(reach final)",
+  "market_source": {
+    "source": "FanDuel Sportsbook (via Sports Illustrated)",
+    "source_url": "https://www.si.com/betting/every-teams-championship-group-odds-for-the-2026-world-cup-spain-and-france-top-odds-list-01kt4yygesqb",
+    "collected_date": "2026-06-03"
+  },
+  "top_10": [
+    {
+      "team": "Spain",
+      "win_prob": 0.2477,
+      "decimal_odds": 4.04,
+      "data_model_prob": 0.2747,
+      "market_prob": 0.1665
+    },
+    {
+      "team": "Argentina",
+      "win_prob": 0.1587,
+      "decimal_odds": 6.3,
+      "data_model_prob": 0.1853,
+      "market_prob": 0.0787
+    },
+    {
+      "team": "France",
+      "win_prob": 0.13,
+      "decimal_odds": 7.69,
+      "data_model_prob": 0.1218,
+      "market_prob": 0.1546
+    },
+    {
+      "team": "England",
+      "win_prob": 0.0831,
+      "decimal_odds": 12.03,
+      "data_model_prob": 0.0723,
+      "market_prob": 0.1155
+    },
+    {
+      "team": "Portugal",
+      "win_prob": 0.0621,
+      "decimal_odds": 16.11,
+      "data_model_prob": 0.0565,
+      "market_prob": 0.0787
+    },
+    {
+      "team": "Brazil",
+      "win_prob": 0.0494,
+      "decimal_odds": 20.22,
+      "data_model_prob": 0.0355,
+      "market_prob": 0.0912
+    },
+    {
+      "team": "Netherlands",
+      "win_prob": 0.0454,
+      "decimal_odds": 22.02,
+      "data_model_prob": 0.0436,
+      "market_prob": 0.0509
+    },
+    {
+      "team": "Germany",
+      "win_prob": 0.0396,
+      "decimal_odds": 25.25,
+      "data_model_prob": 0.0322,
+      "market_prob": 0.0619
+    },
+    {
+      "team": "Colombia",
+      "win_prob": 0.0298,
+      "decimal_odds": 33.52,
+      "data_model_prob": 0.0327,
+      "market_prob": 0.0211
+    },
+    {
+      "team": "Japan",
+      "win_prob": 0.0208,
+      "decimal_odds": 48.18,
+      "data_model_prob": 0.0214,
+      "market_prob": 0.0188
+    }
+  ]
+}

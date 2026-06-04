@@ -1,0 +1,202 @@
+{
+  "source": "Mean L1-normalised importance across XGBoost, LightGBM, CatBoost",
+  "n_features": 49,
+  "top_features": [
+    {
+      "feature": "elo_expected_home",
+      "importance": 0.12039
+    },
+    {
+      "feature": "elo_diff_adj",
+      "importance": 0.103615
+    },
+    {
+      "feature": "elo_diff",
+      "importance": 0.061366
+    },
+    {
+      "feature": "h2h_gd_avg",
+      "importance": 0.032123
+    },
+    {
+      "feature": "h2h_count",
+      "importance": 0.026217
+    },
+    {
+      "feature": "away_squad_value",
+      "importance": 0.025247
+    },
+    {
+      "feature": "elo_away",
+      "importance": 0.025134
+    },
+    {
+      "feature": "h2h_avg_goals_away",
+      "importance": 0.022761
+    },
+    {
+      "feature": "away_comp_ga_last10",
+      "importance": 0.022637
+    },
+    {
+      "feature": "home_comp_ga_last10",
+      "importance": 0.022502
+    },
+    {
+      "feature": "h2h_home_win_rate",
+      "importance": 0.022213
+    },
+    {
+      "feature": "home_ga_last10",
+      "importance": 0.021201
+    },
+    {
+      "feature": "squad_value_ratio",
+      "importance": 0.021013
+    },
+    {
+      "feature": "elo_home_adj",
+      "importance": 0.020788
+    },
+    {
+      "feature": "tournament_tier",
+      "importance": 0.020024
+    },
+    {
+      "feature": "away_gd_last10",
+      "importance": 0.019873
+    },
+    {
+      "feature": "away_ga_last10",
+      "importance": 0.019852
+    },
+    {
+      "feature": "h2h_avg_goals_home",
+      "importance": 0.019213
+    },
+    {
+      "feature": "home_avg_player_value",
+      "importance": 0.019173
+    },
+    {
+      "feature": "away_gd_last5",
+      "importance": 0.017491
+    },
+    {
+      "feature": "h2h_draw_rate",
+      "importance": 0.017218
+    },
+    {
+      "feature": "home_gd_last10",
+      "importance": 0.016841
+    },
+    {
+      "feature": "home_ga_last5",
+      "importance": 0.016031
+    },
+    {
+      "feature": "home_gd_last5",
+      "importance": 0.015917
+    },
+    {
+      "feature": "elo_home",
+      "importance": 0.015903
+    },
+    {
+      "feature": "h2h_away_win_rate",
+      "importance": 0.015291
+    },
+    {
+      "feature": "home_comp_gf_last10",
+      "importance": 0.014969
+    },
+    {
+      "feature": "away_avg_player_value",
+      "importance": 0.014963
+    },
+    {
+      "feature": "home_squad_value",
+      "importance": 0.0144
+    },
+    {
+      "feature": "away_comp_gf_last10",
+      "importance": 0.014353
+    },
+    {
+      "feature": "home_gf_last10",
+      "importance": 0.014044
+    },
+    {
+      "feature": "away_ga_last5",
+      "importance": 0.013694
+    },
+    {
+      "feature": "is_neutral",
+      "importance": 0.011882
+    },
+    {
+      "feature": "away_comp_win_last10",
+      "importance": 0.011823
+    },
+    {
+      "feature": "away_gf_last10",
+      "importance": 0.011538
+    },
+    {
+      "feature": "is_qualifier",
+      "importance": 0.011006
+    },
+    {
+      "feature": "home_comp_win_last10",
+      "importance": 0.010716
+    },
+    {
+      "feature": "home_draw_last10",
+      "importance": 0.010299
+    },
+    {
+      "feature": "away_gf_last5",
+      "importance": 0.009631
+    },
+    {
+      "feature": "away_win_last5",
+      "importance": 0.009499
+    },
+    {
+      "feature": "away_win_last10",
+      "importance": 0.009091
+    },
+    {
+      "feature": "home_gf_last5",
+      "importance": 0.008676
+    },
+    {
+      "feature": "away_draw_last10",
+      "importance": 0.008659
+    },
+    {
+      "feature": "home_win_last10",
+      "importance": 0.007807
+    },
+    {
+      "feature": "is_continental",
+      "importance": 0.007686
+    },
+    {
+      "feature": "home_win_last5",
+      "importance": 0.007558
+    },
+    {
+      "feature": "home_draw_last5",
+      "importance": 0.007443
+    },
+    {
+      "feature": "away_draw_last5",
+      "importance": 0.006079
+    },
+    {
+      "feature": "is_wc",
+      "importance": 0.004148
+    }
+  ]
+}

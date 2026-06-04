@@ -1,0 +1,458 @@
+{
+  "A": [
+    {
+      "team": "Mexico",
+      "expected_points": 5.519,
+      "expected_gd": 2.392,
+      "expected_gf": 6.979,
+      "win_group_prob": 0.421,
+      "advance_prob": 0.8823,
+      "avg_finish": 1.926
+    },
+    {
+      "team": "South Korea",
+      "expected_points": 5.273,
+      "expected_gd": 2.003,
+      "expected_gf": 7.018,
+      "win_group_prob": 0.3761,
+      "advance_prob": 0.8575,
+      "avg_finish": 2.026
+    },
+    {
+      "team": "Czech Republic",
+      "expected_points": 3.634,
+      "expected_gd": -0.987,
+      "expected_gf": 5.642,
+      "win_group_prob": 0.1457,
+      "advance_prob": 0.6185,
+      "avg_finish": 2.75
+    },
+    {
+      "team": "South Africa",
+      "expected_points": 2.384,
+      "expected_gd": -3.407,
+      "expected_gf": 4.525,
+      "win_group_prob": 0.0572,
+      "advance_prob": 0.3524,
+      "avg_finish": 3.298
+    }
+  ],
+  "B": [
+    {
+      "team": "Switzerland",
+      "expected_points": 6.601,
+      "expected_gd": 4.497,
+      "expected_gf": 8.638,
+      "win_group_prob": 0.6332,
+      "advance_prob": 0.9558,
+      "avg_finish": 1.519
+    },
+    {
+      "team": "Canada",
+      "expected_points": 4.869,
+      "expected_gd": 1.185,
+      "expected_gf": 6.954,
+      "win_group_prob": 0.2473,
+      "advance_prob": 0.8259,
+      "avg_finish": 2.209
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "expected_points": 2.924,
+      "expected_gd": -2.467,
+      "expected_gf": 5.047,
+      "win_group_prob": 0.069,
+      "advance_prob": 0.4781,
+      "avg_finish": 3.054
+    },
+    {
+      "team": "Qatar",
+      "expected_points": 2.528,
+      "expected_gd": -3.215,
+      "expected_gf": 4.674,
+      "win_group_prob": 0.0504,
+      "advance_prob": 0.3906,
+      "avg_finish": 3.218
+    }
+  ],
+  "C": [
+    {
+      "team": "Brazil",
+      "expected_points": 6.159,
+      "expected_gd": 3.661,
+      "expected_gf": 7.862,
+      "win_group_prob": 0.5129,
+      "advance_prob": 0.9395,
+      "avg_finish": 1.697
+    },
+    {
+      "team": "Morocco",
+      "expected_points": 5.473,
+      "expected_gd": 2.414,
+      "expected_gf": 7.189,
+      "win_group_prob": 0.3581,
+      "advance_prob": 0.8942,
+      "avg_finish": 1.971
+    },
+    {
+      "team": "Scotland",
+      "expected_points": 3.552,
+      "expected_gd": -1.228,
+      "expected_gf": 5.766,
+      "win_group_prob": 0.1063,
+      "advance_prob": 0.6223,
+      "avg_finish": 2.792
+    },
+    {
+      "team": "Haiti",
+      "expected_points": 1.751,
+      "expected_gd": -4.847,
+      "expected_gf": 3.92,
+      "win_group_prob": 0.0227,
+      "advance_prob": 0.2256,
+      "avg_finish": 3.54
+    }
+  ],
+  "D": [
+    {
+      "team": "Turkey",
+      "expected_points": 5.025,
+      "expected_gd": 1.498,
+      "expected_gf": 6.868,
+      "win_group_prob": 0.366,
+      "advance_prob": 0.8196,
+      "avg_finish": 2.121
+    },
+    {
+      "team": "Australia",
+      "expected_points": 4.841,
+      "expected_gd": 1.151,
+      "expected_gf": 6.522,
+      "win_group_prob": 0.332,
+      "advance_prob": 0.7954,
+      "avg_finish": 2.202
+    },
+    {
+      "team": "Paraguay",
+      "expected_points": 3.948,
+      "expected_gd": -0.405,
+      "expected_gf": 5.666,
+      "win_group_prob": 0.2004,
+      "advance_prob": 0.6603,
+      "avg_finish": 2.607
+    },
+    {
+      "team": "United States",
+      "expected_points": 2.92,
+      "expected_gd": -2.243,
+      "expected_gf": 4.849,
+      "win_group_prob": 0.1015,
+      "advance_prob": 0.4622,
+      "avg_finish": 3.071
+    }
+  ],
+  "E": [
+    {
+      "team": "Germany",
+      "expected_points": 6.429,
+      "expected_gd": 4.157,
+      "expected_gf": 8.059,
+      "win_group_prob": 0.5596,
+      "advance_prob": 0.9564,
+      "avg_finish": 1.611
+    },
+    {
+      "team": "Ecuador",
+      "expected_points": 5.407,
+      "expected_gd": 2.274,
+      "expected_gf": 6.788,
+      "win_group_prob": 0.3176,
+      "advance_prob": 0.9009,
+      "avg_finish": 2.015
+    },
+    {
+      "team": "Ivory Coast",
+      "expected_points": 3.828,
+      "expected_gd": -0.657,
+      "expected_gf": 5.711,
+      "win_group_prob": 0.1118,
+      "advance_prob": 0.6983,
+      "avg_finish": 2.68
+    },
+    {
+      "team": "Curaçao",
+      "expected_points": 1.314,
+      "expected_gd": -5.774,
+      "expected_gf": 3.157,
+      "win_group_prob": 0.011,
+      "advance_prob": 0.1454,
+      "avg_finish": 3.694
+    }
+  ],
+  "F": [
+    {
+      "team": "Netherlands",
+      "expected_points": 6.084,
+      "expected_gd": 3.548,
+      "expected_gf": 8.207,
+      "win_group_prob": 0.5078,
+      "advance_prob": 0.9318,
+      "avg_finish": 1.715
+    },
+    {
+      "team": "Japan",
+      "expected_points": 5.498,
+      "expected_gd": 2.424,
+      "expected_gf": 7.534,
+      "win_group_prob": 0.3707,
+      "advance_prob": 0.8909,
+      "avg_finish": 1.951
+    },
+    {
+      "team": "Sweden",
+      "expected_points": 3.021,
+      "expected_gd": -2.325,
+      "expected_gf": 5.335,
+      "win_group_prob": 0.0786,
+      "advance_prob": 0.4967,
+      "avg_finish": 3.017
+    },
+    {
+      "team": "Tunisia",
+      "expected_points": 2.315,
+      "expected_gd": -3.647,
+      "expected_gf": 4.468,
+      "win_group_prob": 0.0428,
+      "advance_prob": 0.3432,
+      "avg_finish": 3.317
+    }
+  ],
+  "G": [
+    {
+      "team": "Belgium",
+      "expected_points": 5.751,
+      "expected_gd": 2.833,
+      "expected_gf": 7.492,
+      "win_group_prob": 0.4798,
+      "advance_prob": 0.9016,
+      "avg_finish": 1.822
+    },
+    {
+      "team": "Iran",
+      "expected_points": 4.975,
+      "expected_gd": 1.398,
+      "expected_gf": 6.399,
+      "win_group_prob": 0.3171,
+      "advance_prob": 0.8275,
+      "avg_finish": 2.153
+    },
+    {
+      "team": "Egypt",
+      "expected_points": 3.638,
+      "expected_gd": -0.923,
+      "expected_gf": 5.202,
+      "win_group_prob": 0.1426,
+      "advance_prob": 0.6221,
+      "avg_finish": 2.747
+    },
+    {
+      "team": "New Zealand",
+      "expected_points": 2.43,
+      "expected_gd": -3.308,
+      "expected_gf": 4.448,
+      "win_group_prob": 0.0605,
+      "advance_prob": 0.3613,
+      "avg_finish": 3.279
+    }
+  ],
+  "H": [
+    {
+      "team": "Spain",
+      "expected_points": 7.315,
+      "expected_gd": 5.879,
+      "expected_gf": 8.9,
+      "win_group_prob": 0.7532,
+      "advance_prob": 0.9853,
+      "avg_finish": 1.308
+    },
+    {
+      "team": "Uruguay",
+      "expected_points": 5.15,
+      "expected_gd": 1.668,
+      "expected_gf": 6.922,
+      "win_group_prob": 0.198,
+      "advance_prob": 0.8876,
+      "avg_finish": 2.113
+    },
+    {
+      "team": "Saudi Arabia",
+      "expected_points": 2.54,
+      "expected_gd": -3.253,
+      "expected_gf": 4.152,
+      "win_group_prob": 0.0295,
+      "advance_prob": 0.4033,
+      "avg_finish": 3.187
+    },
+    {
+      "team": "Cape Verde",
+      "expected_points": 2.032,
+      "expected_gd": -4.294,
+      "expected_gf": 3.796,
+      "win_group_prob": 0.0193,
+      "advance_prob": 0.2884,
+      "avg_finish": 3.392
+    }
+  ],
+  "I": [
+    {
+      "team": "France",
+      "expected_points": 6.632,
+      "expected_gd": 4.533,
+      "expected_gf": 8.584,
+      "win_group_prob": 0.6463,
+      "advance_prob": 0.9598,
+      "avg_finish": 1.504
+    },
+    {
+      "team": "Senegal",
+      "expected_points": 4.209,
+      "expected_gd": -0.028,
+      "expected_gf": 6.13,
+      "win_group_prob": 0.169,
+      "advance_prob": 0.7297,
+      "avg_finish": 2.5
+    },
+    {
+      "team": "Norway",
+      "expected_points": 4.047,
+      "expected_gd": -0.386,
+      "expected_gf": 6.429,
+      "win_group_prob": 0.1535,
+      "advance_prob": 0.704,
+      "avg_finish": 2.567
+    },
+    {
+      "team": "Iraq",
+      "expected_points": 2.039,
+      "expected_gd": -4.12,
+      "expected_gf": 4.06,
+      "win_group_prob": 0.0312,
+      "advance_prob": 0.284,
+      "avg_finish": 3.429
+    }
+  ],
+  "J": [
+    {
+      "team": "Argentina",
+      "expected_points": 7.177,
+      "expected_gd": 5.62,
+      "expected_gf": 8.968,
+      "win_group_prob": 0.7703,
+      "advance_prob": 0.9799,
+      "avg_finish": 1.311
+    },
+    {
+      "team": "Austria",
+      "expected_points": 3.485,
+      "expected_gd": -1.45,
+      "expected_gf": 5.423,
+      "win_group_prob": 0.0889,
+      "advance_prob": 0.5991,
+      "avg_finish": 2.796
+    },
+    {
+      "team": "Algeria",
+      "expected_points": 3.488,
+      "expected_gd": -1.45,
+      "expected_gf": 5.349,
+      "win_group_prob": 0.0881,
+      "advance_prob": 0.5976,
+      "avg_finish": 2.793
+    },
+    {
+      "team": "Jordan",
+      "expected_points": 2.777,
+      "expected_gd": -2.72,
+      "expected_gf": 4.778,
+      "win_group_prob": 0.0528,
+      "advance_prob": 0.447,
+      "avg_finish": 3.1
+    }
+  ],
+  "K": [
+    {
+      "team": "Portugal",
+      "expected_points": 6.134,
+      "expected_gd": 3.621,
+      "expected_gf": 8.14,
+      "win_group_prob": 0.5068,
+      "advance_prob": 0.9366,
+      "avg_finish": 1.699
+    },
+    {
+      "team": "Colombia",
+      "expected_points": 5.667,
+      "expected_gd": 2.738,
+      "expected_gf": 7.694,
+      "win_group_prob": 0.3948,
+      "advance_prob": 0.9071,
+      "avg_finish": 1.883
+    },
+    {
+      "team": "Uzbekistan",
+      "expected_points": 2.952,
+      "expected_gd": -2.389,
+      "expected_gf": 4.736,
+      "win_group_prob": 0.0653,
+      "advance_prob": 0.4857,
+      "avg_finish": 3.044
+    },
+    {
+      "team": "DR Congo",
+      "expected_points": 2.166,
+      "expected_gd": -3.97,
+      "expected_gf": 4.033,
+      "win_group_prob": 0.0331,
+      "advance_prob": 0.3095,
+      "avg_finish": 3.374
+    }
+  ],
+  "L": [
+    {
+      "team": "England",
+      "expected_points": 6.552,
+      "expected_gd": 4.403,
+      "expected_gf": 8.277,
+      "win_group_prob": 0.5872,
+      "advance_prob": 0.961,
+      "avg_finish": 1.557
+    },
+    {
+      "team": "Croatia",
+      "expected_points": 5.406,
+      "expected_gd": 2.299,
+      "expected_gf": 7.228,
+      "win_group_prob": 0.3191,
+      "advance_prob": 0.8955,
+      "avg_finish": 1.998
+    },
+    {
+      "team": "Panama",
+      "expected_points": 3.236,
+      "expected_gd": -1.942,
+      "expected_gf": 5.156,
+      "win_group_prob": 0.0734,
+      "advance_prob": 0.5548,
+      "avg_finish": 2.921
+    },
+    {
+      "team": "Ghana",
+      "expected_points": 1.766,
+      "expected_gd": -4.76,
+      "expected_gf": 3.657,
+      "win_group_prob": 0.0203,
+      "advance_prob": 0.2278,
+      "avg_finish": 3.524
+    }
+  ]
+}
